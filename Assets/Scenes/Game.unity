@@ -451,6 +451,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlayerControle
   _rb: {fileID: 1869375130}
   _speed: 5
+  _turnSpeed: 360
 --- !u!65 &1869375129
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -597,5 +598,5 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 1791338676}
-  - {fileID: 515397210}
   - {fileID: 1869375134}
+  - {fileID: 515397210}
