@@ -1,0 +1,27 @@
+.splash-root {
+    flex-grow: 1;
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background-color: rgb(0, 0, 0);
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    width: 320px;
+    height: 320px;
+    /* Coloque sua imagem de logo em Assets/UI/Resources/UI/logo.png (ou .jpg) */
+    background-image: resource("logo");
+    -unity-background-scale-mode: scale-to-fit;
+
+    /* Começa invisível. A classe "visible" (adicionada via script) muda pra opacity 1,
+       e o transition faz isso acontecer suavemente em vez de instantâneo. */
+    opacity: 0;
+    transition-property: opacity;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+
+.logo.visible {
+    opacity: 1;
+}
