@@ -1,0 +1,59 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="MainMenu.uss" />
+
+    <ui:VisualElement name="root" class="root">
+
+        <!-- Imagem de fundo -->
+        <ui:VisualElement name="background" class="background" />
+
+        <ui:VisualElement name="overlay" class="overlay" />
+
+
+        <!-- Conteudo principal-->
+        <ui:VisualElement name="content" class="content">
+
+            <ui:Label text="Roaming" name="title" class="title" />
+            
+
+            <ui:VisualElement name="menu-list" class="menu-list">
+
+                <ui:VisualElement name="item-continue" class="menu-item">
+                    <ui:VisualElement class="menu-checkbox" />
+                    <ui:Label text="CONTINUE" class="menu-label" />
+                </ui:VisualElement>
+
+                <ui:VisualElement name="item-newgame" class="menu-item">
+                    <ui:VisualElement class="menu-checkbox" />
+                    <ui:Label text="NEW GAME" class="menu-label" />
+                </ui:VisualElement>
+
+                <ui:VisualElement name="item-chapters" class="menu-item">
+                    <ui:VisualElement class="menu-checkbox" />
+                    <ui:Label text="CHAPTERS" class="menu-label" />
+                </ui:VisualElement>
+
+                <ui:VisualElement name="item-load" class="menu-item">
+                    <ui:VisualElement class="menu-checkbox" />
+                    <ui:Label text="LOAD" class="menu-label" />
+                </ui:VisualElement>
+
+                <ui:VisualElement name="item-options" class="menu-item">
+                    <ui:VisualElement class="menu-checkbox" />
+                    <ui:Label text="OPTIONS" class="menu-label" />
+                </ui:VisualElement>
+
+                <ui:VisualElement name="item-credits" class="menu-item">
+                    <ui:VisualElement class="menu-checkbox" />
+                    <ui:Label text="CREDITS" class="menu-label" />
+                </ui:VisualElement>
+
+                <ui:VisualElement name="item-exit" class="menu-item menu-item-spaced">
+                    <ui:VisualElement class="menu-checkbox" />
+                    <ui:Label text="EXIT" class="menu-label" />
+                </ui:VisualElement>
+
+            </ui:VisualElement>
+        </ui:VisualElement>
+
+    </ui:VisualElement>
+</ui:UXML>

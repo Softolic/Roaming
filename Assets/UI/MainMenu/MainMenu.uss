@@ -1,0 +1,104 @@
+/* ===================== ROOT ===================== */
+.root {
+    flex-grow: 1;
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    -unity-font-definition: url("project:///Assets/Fonts/Dream.otf");
+}
+
+/* ===================== BACKGROUND ===================== */
+.background {
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    /* Troque pelo caminho da sua imagem em Resources, ex: Resources/UI/menu_bg.png */
+    background-image: resource("Assets/UI/menu_bg");
+    -unity-background-scale-mode: scale-and-crop;
+}
+
+.overlay {
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background-color: rgba(8, 8, 16, 0.45);
+}
+/* ===================== CONTENT ===================== */
+.content {
+    flex-grow: 1;
+    justify-content: flex-start;
+    padding-left: 60px;
+    padding-right: 60px;
+    max-width: 720px;
+}
+
+.title {
+    margin-top: 5%;
+    color: rgb(240, 235, 225);
+    font-size: 52px;
+    letter-spacing: 14px;
+    -unity-font-style: normal;
+    margin-bottom: 6px;
+    -unity-text-align: upper-left;
+    text-shadow: 0 2px 6px rgba(0, 0, 0, 0.6); 
+    
+}
+
+.subtitle {
+    color: rgba(220, 210, 195, 0.75);
+    font-size: 13px;
+    letter-spacing: 3px;
+    margin-bottom: 48px;
+}
+
+/* ===================== MENU LIST ===================== */
+.menu-list {
+    margin-top: 10%;
+    flex-direction: column;
+}
+
+.menu-item {
+    flex-direction: row;
+    align-items: center;
+    height: 42px;
+    margin-bottom: 6px;
+    /* facilita clique/hover com mouse */
+    padding-left: 4px;
+}
+
+.menu-item-spaced {
+    margin-top: 28px;
+}
+
+.menu-checkbox {
+    width: 14px;
+    height: 14px;
+    margin-right: 18px;
+    border-width: 2px;
+    border-color: rgba(225, 220, 210, 0.7);
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.checkbox-filled {
+    background-color: rgb(235, 230, 220);
+    border-color: rgb(235, 230, 220);
+}
+
+.menu-label {
+    color: rgba(225, 220, 210, 0.85);
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+
+/* Estado selecionado (item atual do teclado/controle) */
+.menu-item.selected .menu-label {
+    color: rgb(255, 252, 245);
+    -unity-font-style: bold;
+}
+
+.menu-item.selected .menu-checkbox {
+    background-color: rgb(235, 230, 220);
+    border-color: rgb(235, 230, 220);
+}
+
+/* Hover do mouse (Unity aplica :hover automaticamente em VisualElement) */
+.menu-item:hover .menu-label {
+    color: rgb(255, 252, 245);
+}
