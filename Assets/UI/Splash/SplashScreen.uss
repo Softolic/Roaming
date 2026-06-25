@@ -10,12 +10,9 @@
 .logo {
     width: 320px;
     height: 320px;
-    /* Coloque sua imagem de logo em Assets/UI/Resources/UI/logo.png (ou .jpg) */
     background-image: resource("logo");
     -unity-background-scale-mode: scale-to-fit;
 
-    /* Começa invisível. A classe "visible" (adicionada via script) muda pra opacity 1,
-       e o transition faz isso acontecer suavemente em vez de instantâneo. */
     opacity: 0;
     transition-property: opacity;
     transition-duration: 1s;

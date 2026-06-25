@@ -6,7 +6,10 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 99c9720ab356a0642a771bea13969a05
+    path: Assets/Scenes/Splash.unity
+    guid: 284da92d3179be84b9c52d1f409f9b92
+  - enabled: 1
+    path: Assets/Scenes/TelaTitulo.unity
+    guid: a472f0d10b719104e8ef32b66622a3c6
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
