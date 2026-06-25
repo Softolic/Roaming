@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.UIElements;
+using UnityEngine.SceneManagement;
 
 // Anexe este script no mesmo GameObject que tem o componente UIDocument.
 [RequireComponent(typeof(UIDocument))]
@@ -123,6 +124,7 @@ public class MainMenuController : MonoBehaviour
                 // TODO: carregar último save
                 break;
             case "item-newgame":
+                    SceneManager.LoadScene("Game");
                 // TODO: SceneManager.LoadScene("Intro");
                 break;
             case "item-chapters":
