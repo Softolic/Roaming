@@ -3,7 +3,7 @@
     <ui:Style src="ChapterIntro.uss" />
     <ui:VisualElement name="chapter-intro-root" class="chapter-intro-root">
         <ui:VisualElement name="chapter-card" class="chapter-card">
-            <ui:Label text="PRÓLOGO" name="chapter-name" class="chapter-name" />
+            <ui:Label text="PROLOGO" name="chapter-name" class="chapter-name" />
             <ui:VisualElement class="divider" />
             <ui:Label text="TUTORIAL" name="chapter-subtitle" class="chapter-subtitle" />
         </ui:VisualElement>
