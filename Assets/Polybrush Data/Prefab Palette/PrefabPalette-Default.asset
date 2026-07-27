@@ -29,3 +29,19 @@ MonoBehaviour:
       m_YScaleBool: 0
       m_ZScaleBool: 0
     name: Arbusto
+  - gameObject: {fileID: 919132149155446097, guid: 6fb50e2d33819b9409071679111a52e0, type: 3}
+    settings:
+      m_Strength: 50
+      m_RotationRangeMin: {x: 190.43478, y: 0, z: 194.34782}
+      m_RotationRangeMax: {x: 190.43478, y: 237.39131, z: 194.34782}
+      m_ScaleRangeMin: {x: 1, y: 1, z: 1}
+      m_ScaleRangeMax: {x: 1, y: 1, z: 1}
+      m_UniformScale: {x: 1, y: 1}
+      m_UniformBool: 0
+      m_XRotationBool: 0
+      m_YRotationBool: 0
+      m_ZRotationBool: 0
+      m_XScaleBool: 0
+      m_YScaleBool: 0
+      m_ZScaleBool: 0
+    name: arvore

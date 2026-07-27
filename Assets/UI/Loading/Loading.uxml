@@ -1,0 +1,16 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Loading/Loading.uss?fileID=7433441132597879392&amp;guid=93815cd2592fb7b4a9e18fb54213c407&amp;type=3#Loading"/>
+    <ui:VisualElement name="loading-root" class="loading-root">
+        <ui:VisualElement class="vignette"/>
+        <ui:VisualElement class="content">
+            <ui:Label text="ROAMING" class="game-title"/>
+            <ui:Label text="PREPARANDO A VIAGEM" class="destination" style="height: 17px; width: 250px; -unity-text-align: middle-center;"/>
+        </ui:VisualElement>
+        <ui:VisualElement class="loading-area">
+            <ui:Label name="loading-text" text="CARREGANDO." class="loading-text" style="white-space: nowrap;"/>
+            <ui:VisualElement class="progress-track">
+                <ui:VisualElement name="progress-fill" class="progress-fill"/>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

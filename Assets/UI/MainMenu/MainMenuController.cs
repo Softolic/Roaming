@@ -124,7 +124,7 @@ public class MainMenuController : MonoBehaviour
                 // TODO: carregar último save
                 break;
             case "item-newgame":
-                    SceneManager.LoadScene("Game");
+                    SceneManager.LoadScene("carregamento");
                 // TODO: SceneManager.LoadScene("Intro");
                 break;
             case "item-chapters":
