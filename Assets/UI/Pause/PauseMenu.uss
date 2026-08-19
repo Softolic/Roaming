@@ -51,3 +51,107 @@
     font-size: 13px;
     letter-spacing: 1px;
 }
+.options-root {
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(3, 8, 10, 0.88);
+}
+
+.options-panel {
+    width: 390px;
+    padding: 30px;
+    align-items: center;
+    background-color: rgba(15, 24, 20, 0.96);
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-top-color: rgb(173, 207, 113);
+    border-bottom-color: rgb(173, 207, 113);
+    border-left-color: rgb(173, 207, 113);
+    border-right-color: rgb(173, 207, 113);
+}
+
+.options-title {
+    margin-bottom: 24px;
+    color: rgb(248, 239, 215);
+    font-size: 38px;
+    letter-spacing: 5px;
+    -unity-font-style: bold;
+}
+
+.options-field {
+    width: 330px;
+    margin-bottom: 16px;
+    color: rgb(244, 235, 211);
+    font-size: 15px;
+}
+
+.options-value {
+    margin-top: -12px;
+    margin-bottom: 18px;
+    color: rgb(173, 207, 113);
+    font-size: 14px;
+}
+
+.options-button {
+    width: 260px;
+    height: 56px;
+    color: rgb(244, 235, 211);
+    font-size: 16px;
+    -unity-font-style: bold;
+    background-image: resource("btns/btn_normal");
+    -unity-background-scale-mode: stretch-to-fill;
+    -unity-slice-left: 16px;
+    -unity-slice-top: 16px;
+    -unity-slice-right: 16px;
+    -unity-slice-bottom: 16px;
+    background-color: rgba(0, 0, 0, 0);
+    border-width: 0;
+}
+
+.options-button:hover {
+    background-image: resource("btns/btn_hover");
+}
+
+.options-hint {
+    margin-top: 16px;
+    color: rgba(244, 235, 211, 0.8);
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+/* Ajuste fluido para janelas estreitas e baixas. */
+.options-root {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.options-scroll {
+    width: 100%;
+    max-width: 480px;
+    max-height: 88%;
+}
+
+.options-panel {
+    width: 100%;
+    min-width: 0;
+    max-width: none;
+    padding: 24px 7%;
+}
+
+.options-field {
+    width: 100%;
+}
+
+.options-button {
+    width: 100%;
+    max-width: 300px;
+}
+
+.options-title {
+    font-size: 34px;
+    -unity-text-align: middle-center;
+}

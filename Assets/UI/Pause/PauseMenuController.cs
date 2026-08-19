@@ -8,20 +8,31 @@ public class PauseMenuController : MonoBehaviour
     private VisualElement pauseRoot;
     private bool isPaused;
 
-    private void OnEnable()
+private void OnEnable()
     {
         var root = GetComponent<UIDocument>().rootVisualElement;
-        pauseRoot = root.Q<VisualElement>("pause-root");
+        if (GetComponent<OptionsOverlay>() == null)
+            gameObject.AddComponent<OptionsOverlay>();
 
+        pauseRoot = root.Q<VisualElement>("pause-root");
         root.Q<Button>("options-button").clicked += OpenOptions;
         root.Q<Button>("exit-button").clicked += ExitToTitle;
         SetPaused(false);
     }
 
-    private void Update()
+private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape))
-            SetPaused(!isPaused);
+        if (!Input.GetKeyDown(KeyCode.Escape))
+            return;
+
+        var options = GetComponent<OptionsOverlay>();
+        if (options != null && options.IsOpen)
+        {
+            options.Hide();
+            return;
+        }
+
+        SetPaused(!isPaused);
     }
 
     private void OnDisable()
@@ -38,9 +49,9 @@ public class PauseMenuController : MonoBehaviour
         UnityEngine.Cursor.lockState = paused ? CursorLockMode.None : CursorLockMode.Locked;
     }
 
-    private void OpenOptions()
+private void OpenOptions()
     {
-        Debug.Log("Tela de opcoes ainda nao criada.");
+        GetComponent<OptionsOverlay>().Show();
     }
 
     private void ExitToTitle()
