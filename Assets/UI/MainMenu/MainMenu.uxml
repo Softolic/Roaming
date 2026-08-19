@@ -1,32 +1,43 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
-    <ui:Style src="project://database/Assets/UI/MainMenu/MainMenu.uss?fileID=7433441132597879392&amp;guid=cfc98c8b9b627804caa0d98cba64c9e3&amp;type=3#MainMenu" />
+    <Style src="project://database/Assets/UI/MainMenu/MainMenu.uss?fileID=7433441132597879392&amp;guid=cfc98c8b9b627804caa0d98cba64c9e3&amp;type=3#MainMenu"/>
     <ui:VisualElement name="root" class="root">
-        <ui:VisualElement name="background" class="background" />
-        <ui:VisualElement name="vignette" class="vignette" />
+        <ui:VisualElement name="background" class="background"/>
+        <ui:VisualElement name="vignette" class="vignette"/>
         <ui:VisualElement name="content" class="content">
-            <ui:Label text="ROAMING" name="title" class="title" />
-            <ui:VisualElement class="title-rule" />
+            <ui:Label text="ROAMING" name="title" class="title"/>
+            <ui:VisualElement class="title-rule"/>
             <ui:VisualElement name="menu-list" class="menu-list">
-                <ui:VisualElement name="item-start" class="menu-item"><ui:Label text="INICIAR" class="menu-label" /></ui:VisualElement>
-                <ui:VisualElement name="item-load" class="menu-item"><ui:Label text="CARREGAR" class="menu-label" /></ui:VisualElement>
-                <ui:VisualElement name="item-options" class="menu-item"><ui:Label text="OPCOES" class="menu-label" /></ui:VisualElement>
-                <ui:VisualElement name="item-credits" class="menu-item"><ui:Label text="CREDITOS" class="menu-label" /></ui:VisualElement>
-                <ui:VisualElement name="item-exit" class="menu-item menu-item-spaced"><ui:Label text="SAIR" class="menu-label" /></ui:VisualElement>
+                <ui:VisualElement name="item-start" class="menu-item">
+                    <ui:Label text="INICIAR" class="menu-label"/>
+                </ui:VisualElement>
+                <ui:VisualElement name="item-load" class="menu-item">
+                    <ui:Label text="CARREGAR" class="menu-label"/>
+                </ui:VisualElement>
+                <ui:VisualElement name="item-options" class="menu-item">
+                    <ui:Label text="OPCOES" class="menu-label"/>
+                </ui:VisualElement>
+                <ui:VisualElement name="item-credits" class="menu-item">
+                    <ui:Label text="CREDITOS" class="menu-label"/>
+                </ui:VisualElement>
+                <ui:VisualElement name="item-exit" class="menu-item menu-item-spaced">
+                    <ui:Label text="SAIR" class="menu-label"/>
+                </ui:VisualElement>
             </ui:VisualElement>
         </ui:VisualElement>
         <ui:VisualElement name="options-root" class="options-root">
             <ui:ScrollView class="options-scroll">
                 <ui:VisualElement class="options-panel">
-                <ui:Label text="OPCOES" class="options-title" />
-                <ui:DropdownField name="resolution-dropdown" label="RESOLUCAO" class="options-field" />
-                <ui:Slider name="volume-slider" label="VOLUME" low-value="0" high-value="1" class="options-field" />
-                <ui:Label name="volume-value" class="options-value" />
-                <ui:Button name="options-apply-button" text="APLICAR" class="options-button" />
-                <ui:Button name="options-back-button" text="VOLTAR" class="options-button" />
-                <ui:Label text="ESC PARA VOLTAR" class="options-hint" />
+                    <ui:Label text="OPCOES" class="options-title"/>
+                    <ui:DropdownField name="display-mode-dropdown" label="MODO DA TELA" class="options-field"/>
+                    <ui:DropdownField name="resolution-dropdown" label="RESOLUCAO" class="options-field"/>
+                    <ui:Slider name="volume-slider" label="VOLUME" low-value="0" high-value="1" class="options-field"/>
+                    <ui:Label name="volume-value" class="options-value"/>
+                    <ui:Button name="options-apply-button" text="APLICAR" class="options-button"/>
+                    <ui:Button name="options-back-button" text="VOLTAR" class="options-button"/>
+                    <ui:Label text="ESC PARA VOLTAR" class="options-hint"/>
                 </ui:VisualElement>
             </ui:ScrollView>
         </ui:VisualElement>
-        <ui:Label text="v1.0.0" name="version" class="version" />
+        <ui:Label text="v1.0.3" name="version" class="version"/>
     </ui:VisualElement>
 </ui:UXML>

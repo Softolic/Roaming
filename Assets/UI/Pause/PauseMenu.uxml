@@ -11,6 +11,7 @@
             <ui:ScrollView class="options-scroll">
                 <ui:VisualElement class="options-panel">
                 <ui:Label text="OPCOES" class="options-title" />
+                <ui:DropdownField name="display-mode-dropdown" label="MODO DA TELA" class="options-field" />
                 <ui:DropdownField name="resolution-dropdown" label="RESOLUCAO" class="options-field" />
                 <ui:Slider name="volume-slider" label="VOLUME" low-value="0" high-value="1" class="options-field" />
                 <ui:Label name="volume-value" class="options-value" />
