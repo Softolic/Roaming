@@ -51,6 +51,28 @@
     font-size: 13px;
     letter-spacing: 1px;
 }
+
+.save-notification {
+    position: absolute;
+    -unity-font-definition: url("project:///Assets/Fonts/Dream.otf");
+    right: 4%;
+    bottom: 5%;
+    padding: 14px 20px;
+    color: rgb(248, 239, 215);
+    font-size: 17px;
+    letter-spacing: 1.5px;
+    -unity-font-style: bold;
+    background-color: rgba(20, 38, 27, 0.92);
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-color: rgb(173, 207, 113);
+    border-bottom-color: rgb(173, 207, 113);
+    border-left-color: rgb(173, 207, 113);
+    border-right-color: rgb(173, 207, 113);
+    display: none;
+}
 .options-root {
     position: absolute;
     top: 0; left: 0; right: 0; bottom: 0;

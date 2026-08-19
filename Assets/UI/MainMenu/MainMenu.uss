@@ -194,3 +194,54 @@
     font-size: 34px;
     -unity-text-align: middle-center;
 }
+
+/* Vagalumes decorativos: ficam apenas nas laterais, livres da área do menu. */
+.fireflies {
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    picking-mode: ignore;
+}
+
+.firefly {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    justify-content: center;
+    align-items: center;
+    background-image: resource("firefly_glow");
+    -unity-background-scale-mode: stretch-to-fill;
+    background-color: rgba(0, 0, 0, 0);
+    border-width: 0;
+}
+
+.firefly-small {
+    width: 16px;
+    height: 16px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.firefly-core {
+    width: 4px;
+    height: 4px;
+    background-color: rgb(255, 230, 0);
+    border-radius: 50%;
+}
+
+.firefly-small .firefly-core {
+    width: 3px;
+    height: 3px;
+}
+
+.firefly-left-1 { left: 8%; top: 17%; }
+.firefly-left-2 { left: 19%; top: 30%; }
+.firefly-left-3 { left: 12%; top: 48%; }
+.firefly-left-4 { left: 23%; top: 62%; }
+.firefly-left-5 { left: 7%; top: 76%; }
+.firefly-left-6 { left: 18%; top: 87%; }
+
+.firefly-right-1 { right: 16%; top: 20%; }
+.firefly-right-2 { right: 8%; top: 39%; }
+.firefly-right-3 { right: 22%; top: 54%; }
+.firefly-right-4 { right: 12%; top: 67%; }
+.firefly-right-5 { right: 6%; top: 82%; }
+.firefly-right-6 { right: 20%; top: 91%; }

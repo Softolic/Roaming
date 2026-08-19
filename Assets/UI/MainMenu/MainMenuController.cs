@@ -1,3 +1,5 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UIElements;
@@ -20,6 +22,21 @@ public class MainMenuController : MonoBehaviour
     private Label title;
     private VisualElement titleRule;
     private Label[] menuLabels;
+    private readonly List<FireflyMotion> fireflies = new();
+    private Coroutine fireflyLoop;
+
+
+    private sealed class FireflyMotion
+    {
+        public VisualElement Element;
+        public Vector2 Offset;
+        public Vector2 TargetOffset;
+        public float Phase;
+        public float TravelSpeed;
+        public float NextRetargetAt;
+
+    }
+
 private int selectedIndex = -1;
 
 private void OnEnable()
@@ -46,7 +63,32 @@ private void OnEnable()
         root.Focus();
         root.RegisterCallback<KeyDownEvent>(OnKeyDown);
         root.RegisterCallback<GeometryChangedEvent>(OnGeometryChanged);
+        CreateFireflyMotions();
+        if (fireflyLoop != null)
+            StopCoroutine(fireflyLoop);
+
+        fireflyLoop = StartCoroutine(AnimateFireflies());
+
     }
+
+private void OnDisable()
+    {
+        if (fireflyLoop != null)
+        {
+            StopCoroutine(fireflyLoop);
+            fireflyLoop = null;
+        }
+    }
+
+    private IEnumerator AnimateFireflies()
+    {
+        while (true)
+        {
+            UpdateFireflies();
+            yield return null;
+        }
+    }
+
 
 private void OnKeyDown(KeyDownEvent evt)
     {
@@ -91,6 +133,51 @@ private void OnGeometryChanged(GeometryChangedEvent evt)
         }
     }
 
+private void CreateFireflyMotions()
+    {
+        fireflies.Clear();
+        root.Query<VisualElement>(className: "firefly").ForEach(element =>
+        {
+            fireflies.Add(new FireflyMotion
+            {
+                Element = element,
+                Offset = Vector2.zero,
+                TargetOffset = Random.insideUnitCircle * Random.Range(18f, 42f),
+                Phase = Random.Range(0f, Mathf.PI * 2f),
+                TravelSpeed = Random.Range(0.85f, 1.35f),
+                NextRetargetAt = Time.unscaledTime + Random.Range(1.5f, 4f)
+            });
+        });
+    }
+
+private void UpdateFireflies()
+    {
+        float time = Time.unscaledTime;
+
+        foreach (FireflyMotion firefly in fireflies)
+        {
+            if (time >= firefly.NextRetargetAt)
+            {
+                firefly.TargetOffset = Random.insideUnitCircle * Random.Range(18f, 42f);
+                firefly.NextRetargetAt = time + Random.Range(1.5f, 4f);
+            }
+
+            firefly.Offset = Vector2.Lerp(
+                firefly.Offset,
+                firefly.TargetOffset,
+                1f - Mathf.Exp(-firefly.TravelSpeed * Time.unscaledDeltaTime));
+
+            firefly.Element.style.translate = new Translate(
+                new Length(firefly.Offset.x, LengthUnit.Pixel),
+                new Length(firefly.Offset.y, LengthUnit.Pixel),
+                0f);
+
+            float pulse = 0.62f + 0.38f * Mathf.Sin(time * 1.35f + firefly.Phase);
+            firefly.Element.style.opacity = Mathf.Clamp01(pulse);
+        }
+    }
+
+
 
     private void MoveSelection(int direction)
     {
@@ -116,7 +203,8 @@ private void Activate(int index)
                 SceneManager.LoadScene("carregamento");
                 break;
             case "item-load":
-                Debug.Log("Abrir carregamento");
+                if (SaveSystem.PrepareLoad())
+                    SceneManager.LoadScene("carregamento");
                 break;
             case "item-options":
                 GetComponent<OptionsOverlay>().Show();

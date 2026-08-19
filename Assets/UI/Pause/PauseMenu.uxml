@@ -3,6 +3,8 @@
     <ui:VisualElement name="pause-root" class="pause-root">
         <ui:VisualElement name="pause-panel" class="pause-panel">
             <ui:Label text="PAUSADO" class="pause-title" />
+            <ui:Button name="save-button" text="SALVAR JOGO" class="pause-button" />
+            <ui:Button name="load-button" text="CARREGAR JOGO" class="pause-button" />
             <ui:Button name="options-button" text="OPCOES" class="pause-button" />
             <ui:Button name="exit-button" text="SAIR" class="pause-button" />
             <ui:Label text="ESC PARA CONTINUAR" class="pause-hint" />
@@ -22,4 +24,5 @@
             </ui:ScrollView>
         </ui:VisualElement>
     </ui:VisualElement>
+    <ui:Label name="save-notification" text="SALVO COM SUCESSO" class="save-notification" />
 </ui:UXML>

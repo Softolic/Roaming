@@ -3,6 +3,20 @@
     <ui:VisualElement name="root" class="root">
         <ui:VisualElement name="background" class="background"/>
         <ui:VisualElement name="vignette" class="vignette"/>
+        <ui:VisualElement name="fireflies" class="fireflies">
+            <ui:VisualElement class="firefly firefly-left-1"><ui:VisualElement class="firefly-core" /></ui:VisualElement>
+            <ui:VisualElement class="firefly firefly-left-2 firefly-small"><ui:VisualElement class="firefly-core" /></ui:VisualElement>
+            <ui:VisualElement class="firefly firefly-left-3"><ui:VisualElement class="firefly-core" /></ui:VisualElement>
+            <ui:VisualElement class="firefly firefly-left-4 firefly-small"><ui:VisualElement class="firefly-core" /></ui:VisualElement>
+            <ui:VisualElement class="firefly firefly-left-5"><ui:VisualElement class="firefly-core" /></ui:VisualElement>
+            <ui:VisualElement class="firefly firefly-left-6 firefly-small"><ui:VisualElement class="firefly-core" /></ui:VisualElement>
+            <ui:VisualElement class="firefly firefly-right-1 firefly-small"><ui:VisualElement class="firefly-core" /></ui:VisualElement>
+            <ui:VisualElement class="firefly firefly-right-2"><ui:VisualElement class="firefly-core" /></ui:VisualElement>
+            <ui:VisualElement class="firefly firefly-right-3 firefly-small"><ui:VisualElement class="firefly-core" /></ui:VisualElement>
+            <ui:VisualElement class="firefly firefly-right-4"><ui:VisualElement class="firefly-core" /></ui:VisualElement>
+            <ui:VisualElement class="firefly firefly-right-5 firefly-small"><ui:VisualElement class="firefly-core" /></ui:VisualElement>
+            <ui:VisualElement class="firefly firefly-right-6"><ui:VisualElement class="firefly-core" /></ui:VisualElement>
+        </ui:VisualElement>
         <ui:VisualElement name="content" class="content">
             <ui:Label text="ROAMING" name="title" class="title"/>
             <ui:VisualElement class="title-rule"/>
