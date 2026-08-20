@@ -19,7 +19,7 @@ public class MainMenuController : MonoBehaviour
     private VisualElement[] menuItems;
     
     private VisualElement root;
-    private Label title;
+    private VisualElement title;
     private VisualElement titleRule;
     private Label[] menuLabels;
     private readonly List<FireflyMotion> fireflies = new();
@@ -45,7 +45,7 @@ private void OnEnable()
         if (GetComponent<OptionsOverlay>() == null)
             gameObject.AddComponent<OptionsOverlay>();
 
-        title = root.Q<Label>("title");
+        title = root.Q<VisualElement>("title");
         titleRule = root.Q<VisualElement>(className: "title-rule");
         menuItems = new VisualElement[itemNames.Length];
         menuLabels = new Label[itemNames.Length];
@@ -120,7 +120,7 @@ private void OnGeometryChanged(GeometryChangedEvent evt)
             0.55f,
             1.3f);
 
-        title.style.fontSize = 76f * scale;
+        title.style.height = Mathf.Clamp(240f * scale, 150f, 280f);
         titleRule.style.width = Mathf.Clamp(220f * scale, 140f, 300f);
         titleRule.style.marginBottom = 24f * scale;
 

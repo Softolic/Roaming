@@ -1,12 +1,18 @@
 .root {
     position: absolute;
-    top: 0; left: 0; right: 0; bottom: 0;
-    -unity-font-definition: url("project:///Assets/Fonts/Dream.otf");
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    -unity-font-definition: url("project://database/Assets/Fonts/Dream.otf?fileID=12800000&guid=28850c0e46d59fc49b596723e4c16987&type=3#Dream");
 }
 
 .background {
     position: absolute;
-    top: 0; left: 0; right: 0; bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
     background-image: resource("original_forest_bg");
     -unity-background-scale-mode: stretch-to-fill;
     background-color: rgb(3, 8, 10);
@@ -14,7 +20,10 @@
 
 .vignette {
     position: absolute;
-    top: 0; left: 0; right: 0; bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
     background-color: rgba(3, 8, 10, 0.36);
 }
 
@@ -26,12 +35,13 @@
     align-items: center;
 }
 
-.title {
-    color: rgb(248, 239, 215);
-    font-size: 76px;
-    letter-spacing: 8px;
-    -unity-text-align: middle-center;
-    -unity-font-style: bold;
+.title-logo {
+    width: 84%;
+    max-width: 1180px;
+    height: 240px;
+    background-image: url("project:///Assets/Art/Title/RoamingTitleNew.png");
+    -unity-background-scale-mode: scale-to-fit;
+    background-color: rgba(0, 0, 0, 0);
     margin-bottom: 8px;
 }
 
@@ -60,7 +70,7 @@
     -unity-slice-left: 16px;
     -unity-slice-top: 16px;
     -unity-slice-right: 16px;
-    -unity-slice-bottom: 16px; 
+    -unity-slice-bottom: 16px;
     background-color: rgba(0, 0, 0, 0);
     border-width: 0;
 }
@@ -90,9 +100,13 @@
     font-size: 16px;
     letter-spacing: 1px;
 }
+
 .options-root {
     position: absolute;
-    top: 0; left: 0; right: 0; bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
     display: none;
     justify-content: center;
     align-items: center;
@@ -162,7 +176,7 @@
     font-size: 12px;
     letter-spacing: 1px;
 }
-/* Ajuste fluido para janelas estreitas e baixas. */
+
 .options-root {
     padding-left: 5%;
     padding-right: 5%;
@@ -195,10 +209,12 @@
     -unity-text-align: middle-center;
 }
 
-/* Vagalumes decorativos: ficam apenas nas laterais, livres da área do menu. */
 .fireflies {
     position: absolute;
-    top: 0; left: 0; right: 0; bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
     picking-mode: ignore;
 }
 
@@ -232,16 +248,62 @@
     height: 3px;
 }
 
-.firefly-left-1 { left: 8%; top: 17%; }
-.firefly-left-2 { left: 19%; top: 30%; }
-.firefly-left-3 { left: 12%; top: 48%; }
-.firefly-left-4 { left: 23%; top: 62%; }
-.firefly-left-5 { left: 7%; top: 76%; }
-.firefly-left-6 { left: 18%; top: 87%; }
+.firefly-left-1 {
+    left: 8%;
+    top: 17%;
+}
 
-.firefly-right-1 { right: 16%; top: 20%; }
-.firefly-right-2 { right: 8%; top: 39%; }
-.firefly-right-3 { right: 22%; top: 54%; }
-.firefly-right-4 { right: 12%; top: 67%; }
-.firefly-right-5 { right: 6%; top: 82%; }
-.firefly-right-6 { right: 20%; top: 91%; }
+.firefly-left-2 {
+    left: 19%;
+    top: 30%;
+}
+
+.firefly-left-3 {
+    left: 12%;
+    top: 48%;
+}
+
+.firefly-left-4 {
+    left: 23%;
+    top: 62%;
+}
+
+.firefly-left-5 {
+    left: 7%;
+    top: 76%;
+}
+
+.firefly-left-6 {
+    left: 18%;
+    top: 87%;
+}
+
+.firefly-right-1 {
+    right: 16%;
+    top: 20%;
+}
+
+.firefly-right-2 {
+    right: 8%;
+    top: 39%;
+}
+
+.firefly-right-3 {
+    right: 22%;
+    top: 54%;
+}
+
+.firefly-right-4 {
+    right: 12%;
+    top: 67%;
+}
+
+.firefly-right-5 {
+    right: 6%;
+    top: 82%;
+}
+
+.firefly-right-6 {
+    right: 20%;
+    top: 91%;
+}
