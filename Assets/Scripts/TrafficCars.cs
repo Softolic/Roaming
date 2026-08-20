@@ -21,7 +21,10 @@ public class TrafficCars : MonoBehaviour
         public Transform transform;
         public float speed;
         public int direction;
+        public float respawnAt;
+        public bool waiting;
     }
+
 
     private void Awake()
     {
@@ -39,17 +42,19 @@ public class TrafficCars : MonoBehaviour
         cars.Clear();
         for (int i = 0; i < transform.childCount; i++)
         {
-            Transform car = transform.GetChild(i);
-            if (!car.name.StartsWith("Carro")) continue;
+            Transform carTransform = transform.GetChild(i);
+            if (!carTransform.name.StartsWith("Carro")) continue;
 
-            cars.Add(new Car
+            Car car = new Car
             {
-                transform = car,
-                speed = Random.Range(speedRange.x, speedRange.y),
-                direction = car.forward.x >= 0f ? 1 : -1
-            });
+                transform = carTransform,
+                direction = carTransform.forward.x >= 0f ? 1 : -1
+            };
+            ResetCar(ref car, true);
+            cars.Add(car);
         }
     }
+
 
     private void ClearCars(bool immediate)
     {
@@ -71,15 +76,45 @@ public class TrafficCars : MonoBehaviour
         for (int i = 0; i < cars.Count; i++)
         {
             Car car = cars[i];
+
+            if (car.waiting)
+            {
+                if (Time.time >= car.respawnAt)
+                    ResetCar(ref car, false);
+
+                cars[i] = car;
+                continue;
+            }
+
             car.transform.position += car.transform.forward * car.speed * Time.deltaTime;
 
-            if (Mathf.Abs(car.transform.position.x) > roadHalfLength)
+            if (Mathf.Abs(car.transform.position.x) > roadHalfLength + 3f)
             {
-                Vector3 position = car.transform.position;
-                position.x = -car.direction * roadHalfLength;
-                car.transform.position = position;
+                car.waiting = true;
+                car.respawnAt = Time.time + Random.Range(0.6f, 4.5f);
+                car.transform.gameObject.SetActive(false);
             }
+
+            cars[i] = car;
         }
+    }
+
+
+    private void ResetCar(ref Car car, bool initialSpawn)
+    {
+        car.speed = Random.Range(speedRange.x, speedRange.y);
+        car.waiting = false;
+        car.transform.gameObject.SetActive(true);
+
+        float edgeOffset = initialSpawn
+            ? Random.Range(-roadHalfLength, roadHalfLength)
+            : -car.direction * (roadHalfLength + Random.Range(5f, 18f));
+
+        Vector3 position = car.transform.position;
+        position.x = edgeOffset;
+        position.y = roadY;
+        position.z = roadCenterZ + car.direction * laneOffset + Random.Range(-0.45f, 0.45f);
+        car.transform.position = position;
     }
 
     private void CreateMaterials()

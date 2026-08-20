@@ -852,6 +852,7 @@ GameObject:
   - component: {fileID: 11328183}
   - component: {fileID: 11328182}
   - component: {fileID: 11328181}
+  - component: {fileID: 11328184}
   m_Layer: 0
   m_Name: "Carro \u2192"
   m_TagString: Untagged
@@ -944,7 +945,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -958,6 +959,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 11328179}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &11328184
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 11328179}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d3e01f5713922a43a3b93711265608b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CarPlayerCollision
 --- !u!4 &12464238 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2247354909284867117, guid: ea2d2cb9a25f296499e92390c0218132, type: 3}
@@ -18358,6 +18371,7 @@ GameObject:
   - component: {fileID: 169146373}
   - component: {fileID: 169146372}
   - component: {fileID: 169146371}
+  - component: {fileID: 169146374}
   m_Layer: 0
   m_Name: "Carro \u2192"
   m_TagString: Untagged
@@ -18450,7 +18464,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -18464,6 +18478,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 169146369}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &169146374
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 169146369}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d3e01f5713922a43a3b93711265608b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CarPlayerCollision
 --- !u!4 &169982765 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2247354909284867117, guid: ea2d2cb9a25f296499e92390c0218132, type: 3}
@@ -37185,6 +37211,7 @@ GameObject:
   - component: {fileID: 386144181}
   - component: {fileID: 386144180}
   - component: {fileID: 386144179}
+  - component: {fileID: 386144182}
   m_Layer: 0
   m_Name: "Carro \u2192"
   m_TagString: Untagged
@@ -37277,7 +37304,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -37291,6 +37318,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 386144177}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &386144182
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 386144177}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d3e01f5713922a43a3b93711265608b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CarPlayerCollision
 --- !u!4 &386496438 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2247354909284867117, guid: ea2d2cb9a25f296499e92390c0218132, type: 3}
@@ -40612,6 +40651,7 @@ GameObject:
   - component: {fileID: 427918681}
   - component: {fileID: 427918680}
   - component: {fileID: 427918679}
+  - component: {fileID: 427918682}
   m_Layer: 0
   m_Name: "Carro \u2192"
   m_TagString: Untagged
@@ -40704,7 +40744,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -40718,6 +40758,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 427918677}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &427918682
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 427918677}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d3e01f5713922a43a3b93711265608b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CarPlayerCollision
 --- !u!1001 &428009955
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -98209,6 +98261,7 @@ GameObject:
   - component: {fileID: 1030399355}
   - component: {fileID: 1030399354}
   - component: {fileID: 1030399353}
+  - component: {fileID: 1030399356}
   m_Layer: 0
   m_Name: "Carro \u2190"
   m_TagString: Untagged
@@ -98301,7 +98354,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -98315,6 +98368,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1030399351}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1030399356
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1030399351}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d3e01f5713922a43a3b93711265608b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CarPlayerCollision
 --- !u!4 &1030413967 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2247354909284867117, guid: ea2d2cb9a25f296499e92390c0218132, type: 3}
@@ -99033,6 +99098,7 @@ GameObject:
   - component: {fileID: 1037086505}
   - component: {fileID: 1037086504}
   - component: {fileID: 1037086503}
+  - component: {fileID: 1037086506}
   m_Layer: 0
   m_Name: "Carro \u2190"
   m_TagString: Untagged
@@ -99125,7 +99191,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -99139,6 +99205,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1037086501}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1037086506
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1037086501}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d3e01f5713922a43a3b93711265608b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CarPlayerCollision
 --- !u!1001 &1037728787
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -181966,6 +182044,7 @@ GameObject:
   - component: {fileID: 1793619475}
   - component: {fileID: 1793619474}
   - component: {fileID: 1793619473}
+  - component: {fileID: 1793619476}
   m_Layer: 0
   m_Name: "Carro \u2190"
   m_TagString: Untagged
@@ -182058,7 +182137,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -182072,6 +182151,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1793619471}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1793619476
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1793619471}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d3e01f5713922a43a3b93711265608b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CarPlayerCollision
 --- !u!1 &1802572855 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 6fb50e2d33819b9409071679111a52e0, type: 3}
@@ -192129,6 +192220,7 @@ GameObject:
   - component: {fileID: 1883788926}
   - component: {fileID: 1883788925}
   - component: {fileID: 1883788924}
+  - component: {fileID: 1883788927}
   m_Layer: 0
   m_Name: "Carro \u2190"
   m_TagString: Untagged
@@ -192221,7 +192313,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -192235,6 +192327,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1883788922}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1883788927
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1883788922}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d3e01f5713922a43a3b93711265608b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CarPlayerCollision
 --- !u!1001 &1883973007
 PrefabInstance:
   m_ObjectHideFlags: 0
