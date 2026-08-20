@@ -21,10 +21,7 @@ public class TrafficCars : MonoBehaviour
         public Transform transform;
         public float speed;
         public int direction;
-        public float respawnAt;
-        public bool waiting;
     }
-
 
     private void Awake()
     {
@@ -34,27 +31,61 @@ public class TrafficCars : MonoBehaviour
         if (transform.childCount == 0)
             CreateTraffic();
 
-        RegisterStoredCars();
+        RegisterAndSpaceCars();
     }
 
-    private void RegisterStoredCars()
+    private void RegisterAndSpaceCars()
     {
         cars.Clear();
+
+        List<Transform> rightLaneCars = new List<Transform>();
+        List<Transform> leftLaneCars = new List<Transform>();
+
         for (int i = 0; i < transform.childCount; i++)
         {
             Transform carTransform = transform.GetChild(i);
             if (!carTransform.name.StartsWith("Carro")) continue;
 
-            Car car = new Car
-            {
-                transform = carTransform,
-                direction = carTransform.forward.x >= 0f ? 1 : -1
-            };
-            ResetCar(ref car, true);
-            cars.Add(car);
+            int direction = carTransform.forward.x >= 0f ? 1 : -1;
+            if (direction > 0)
+                rightLaneCars.Add(carTransform);
+            else
+                leftLaneCars.Add(carTransform);
         }
+
+        RegisterLane(rightLaneCars, 1, 0.5f);
+        RegisterLane(leftLaneCars, -1, 0f);
     }
 
+    private void RegisterLane(List<Transform> laneCars, int direction, float phaseOffset)
+    {
+        if (laneCars.Count == 0) return;
+
+        float boundary = roadHalfLength + 3f;
+        float loopLength = boundary * 2f;
+        float spacing = loopLength / laneCars.Count;
+        float laneSpeed = Mathf.Max(0.1f, (speedRange.x + speedRange.y) * 0.5f);
+        laneSpeed *= direction > 0 ? 1f : 0.94f;
+
+        for (int i = 0; i < laneCars.Count; i++)
+        {
+            Transform carTransform = laneCars[i];
+            float distanceAlongLoop = (i + phaseOffset) * spacing;
+            float x = -boundary + Mathf.Repeat(distanceAlongLoop, loopLength);
+
+            carTransform.SetPositionAndRotation(
+                new Vector3(x, roadY, roadCenterZ + direction * laneOffset),
+                Quaternion.Euler(0f, direction > 0 ? 90f : -90f, 0f));
+            carTransform.gameObject.SetActive(true);
+
+            cars.Add(new Car
+            {
+                transform = carTransform,
+                speed = laneSpeed,
+                direction = direction
+            });
+        }
+    }
 
     private void ClearCars(bool immediate)
     {
@@ -73,48 +104,24 @@ public class TrafficCars : MonoBehaviour
     {
         if (!Application.isPlaying) return;
 
+        float boundary = roadHalfLength + 3f;
+        float loopLength = boundary * 2f;
+
         for (int i = 0; i < cars.Count; i++)
         {
             Car car = cars[i];
+            Vector3 position = car.transform.position;
+            position.x += car.direction * car.speed * Time.deltaTime;
 
-            if (car.waiting)
-            {
-                if (Time.time >= car.respawnAt)
-                    ResetCar(ref car, false);
+            if (car.direction > 0 && position.x > boundary)
+                position.x -= loopLength;
+            else if (car.direction < 0 && position.x < -boundary)
+                position.x += loopLength;
 
-                cars[i] = car;
-                continue;
-            }
-
-            car.transform.position += car.transform.forward * car.speed * Time.deltaTime;
-
-            if (Mathf.Abs(car.transform.position.x) > roadHalfLength + 3f)
-            {
-                car.waiting = true;
-                car.respawnAt = Time.time + Random.Range(0.6f, 4.5f);
-                car.transform.gameObject.SetActive(false);
-            }
-
-            cars[i] = car;
+            position.y = roadY;
+            position.z = roadCenterZ + car.direction * laneOffset;
+            car.transform.position = position;
         }
-    }
-
-
-    private void ResetCar(ref Car car, bool initialSpawn)
-    {
-        car.speed = Random.Range(speedRange.x, speedRange.y);
-        car.waiting = false;
-        car.transform.gameObject.SetActive(true);
-
-        float edgeOffset = initialSpawn
-            ? Random.Range(-roadHalfLength, roadHalfLength)
-            : -car.direction * (roadHalfLength + Random.Range(5f, 18f));
-
-        Vector3 position = car.transform.position;
-        position.x = edgeOffset;
-        position.y = roadY;
-        position.z = roadCenterZ + car.direction * laneOffset + Random.Range(-0.45f, 0.45f);
-        car.transform.position = position;
     }
 
     private void CreateMaterials()
@@ -130,7 +137,7 @@ public class TrafficCars : MonoBehaviour
         if (lampMaterial.HasProperty("_EmissionColor"))
         {
             lampMaterial.EnableKeyword("_EMISSION");
-            lampMaterial.SetColor("_EmissionColor", new Color(1f, 0.62f, 0.1f) * 12f);;
+            lampMaterial.SetColor("_EmissionColor", new Color(1f, 0.62f, 0.1f) * 12f);
         }
     }
 
@@ -172,7 +179,7 @@ public class TrafficCars : MonoBehaviour
         cars.Add(new Car
         {
             transform = carObject.transform,
-            speed = Random.Range(speedRange.x, speedRange.y),
+            speed = (speedRange.x + speedRange.y) * 0.5f,
             direction = direction
         });
     }
@@ -197,7 +204,6 @@ public class TrafficCars : MonoBehaviour
         Light light = lightObject.AddComponent<Light>();
         light.type = LightType.Spot;
         light.color = new Color(1f, 0.84f, 0.48f);
-        // Feixe amplo para recortar o asfalto, a chuva e as bordas da estrada.
         light.intensity = 18f;
         light.range = 17f;
         light.spotAngle = 92f;
