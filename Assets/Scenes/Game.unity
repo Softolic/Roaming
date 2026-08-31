@@ -50628,6 +50628,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::RainEffect
   target: {fileID: 0}
   heightAboveTarget: 9
+  rainMaterial: {fileID: 2100000, guid: fec5be61aebf2ad47ba351edc6b2c064, type: 2}
 --- !u!4 &537489583
 Transform:
   m_ObjectHideFlags: 0

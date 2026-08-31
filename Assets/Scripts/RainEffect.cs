@@ -5,6 +5,7 @@ public class RainEffect : MonoBehaviour
 {
     [SerializeField] private Transform target;
     [SerializeField, Min(1f)] private float heightAboveTarget = 9f;
+    [SerializeField] private Material rainMaterial;
 
     private ParticleSystem rain;
 
@@ -41,7 +42,7 @@ private void CreateRain()
         main.startLifetime = new ParticleSystem.MinMaxCurve(0.8f, 1.25f);
         main.startSpeed = 0f;
         main.startSize = new ParticleSystem.MinMaxCurve(0.018f, 0.035f);
-        main.startColor = new Color(0.67f, 0.78f, 0.9f, 0.62f);
+        main.startColor = Color.white;
 
         var emission = rain.emission;
         emission.enabled = true;
@@ -60,13 +61,8 @@ private void CreateRain()
         velocity.z = new ParticleSystem.MinMaxCurve(-0.7f, 0.7f);
 
         var renderer = rain.GetComponent<ParticleSystemRenderer>();
-        Shader particleShader = Shader.Find("Universal Render Pipeline/Particles/Unlit");
-        if (particleShader != null)
-        {
-            var material = new Material(particleShader);
-            material.SetColor("_BaseColor", Color.white);
-            renderer.material = material;
-        }
+        if (rainMaterial != null)
+            renderer.sharedMaterial = rainMaterial;
 
         renderer.renderMode = ParticleSystemRenderMode.Stretch;
         renderer.velocityScale = 0.08f;
