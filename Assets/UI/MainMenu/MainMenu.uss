@@ -307,3 +307,35 @@
     right: 20%;
     top: 91%;
 }
+
+/* Folhas nas margens da opção atualmente selecionada. */
+.menu-item {
+    overflow: visible;
+}
+
+.menu-leaf {
+    display: none;
+    position: absolute;
+    top: 50%;
+    width: 40px;
+    height: 40px;
+    translate: 0 -50%;
+    background-image: url("project:///Assets/Art/MainMenu/LeafMenu.png");
+    -unity-background-scale-mode: scale-to-fit;
+    background-color: rgba(0, 0, 0, 0);
+    picking-mode: ignore;
+}
+
+.menu-leaf-left {
+    left: -14px;
+}
+
+.menu-leaf-right {
+    right: -14px;
+}
+
+/* Repete o marcador visual mostrado na referência, apenas na opção ativa. */
+.menu-item.selected .menu-leaf,
+.menu-item:hover .menu-leaf {
+    display: flex;
+}

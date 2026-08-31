@@ -4,62 +4,28 @@
         <ui:VisualElement name="background" class="background"/>
         <ui:VisualElement name="vignette" class="vignette"/>
         <ui:VisualElement name="fireflies" class="fireflies">
-            <ui:VisualElement class="firefly firefly-left-1">
-                <ui:VisualElement class="firefly-core"/>
-            </ui:VisualElement>
-            <ui:VisualElement class="firefly firefly-left-2 firefly-small">
-                <ui:VisualElement class="firefly-core"/>
-            </ui:VisualElement>
-            <ui:VisualElement class="firefly firefly-left-3">
-                <ui:VisualElement class="firefly-core"/>
-            </ui:VisualElement>
-            <ui:VisualElement class="firefly firefly-left-4 firefly-small">
-                <ui:VisualElement class="firefly-core"/>
-            </ui:VisualElement>
-            <ui:VisualElement class="firefly firefly-left-5">
-                <ui:VisualElement class="firefly-core"/>
-            </ui:VisualElement>
-            <ui:VisualElement class="firefly firefly-left-6 firefly-small">
-                <ui:VisualElement class="firefly-core"/>
-            </ui:VisualElement>
-            <ui:VisualElement class="firefly firefly-right-1 firefly-small">
-                <ui:VisualElement class="firefly-core"/>
-            </ui:VisualElement>
-            <ui:VisualElement class="firefly firefly-right-2">
-                <ui:VisualElement class="firefly-core"/>
-            </ui:VisualElement>
-            <ui:VisualElement class="firefly firefly-right-3 firefly-small">
-                <ui:VisualElement class="firefly-core"/>
-            </ui:VisualElement>
-            <ui:VisualElement class="firefly firefly-right-4">
-                <ui:VisualElement class="firefly-core"/>
-            </ui:VisualElement>
-            <ui:VisualElement class="firefly firefly-right-5 firefly-small">
-                <ui:VisualElement class="firefly-core"/>
-            </ui:VisualElement>
-            <ui:VisualElement class="firefly firefly-right-6">
-                <ui:VisualElement class="firefly-core"/>
-            </ui:VisualElement>
+            <ui:VisualElement class="firefly firefly-left-1"><ui:VisualElement class="firefly-core"/></ui:VisualElement>
+            <ui:VisualElement class="firefly firefly-left-2 firefly-small"><ui:VisualElement class="firefly-core"/></ui:VisualElement>
+            <ui:VisualElement class="firefly firefly-left-3"><ui:VisualElement class="firefly-core"/></ui:VisualElement>
+            <ui:VisualElement class="firefly firefly-left-4 firefly-small"><ui:VisualElement class="firefly-core"/></ui:VisualElement>
+            <ui:VisualElement class="firefly firefly-left-5"><ui:VisualElement class="firefly-core"/></ui:VisualElement>
+            <ui:VisualElement class="firefly firefly-left-6 firefly-small"><ui:VisualElement class="firefly-core"/></ui:VisualElement>
+            <ui:VisualElement class="firefly firefly-right-1 firefly-small"><ui:VisualElement class="firefly-core"/></ui:VisualElement>
+            <ui:VisualElement class="firefly firefly-right-2"><ui:VisualElement class="firefly-core"/></ui:VisualElement>
+            <ui:VisualElement class="firefly firefly-right-3 firefly-small"><ui:VisualElement class="firefly-core"/></ui:VisualElement>
+            <ui:VisualElement class="firefly firefly-right-4"><ui:VisualElement class="firefly-core"/></ui:VisualElement>
+            <ui:VisualElement class="firefly firefly-right-5"><ui:VisualElement class="firefly-core"/></ui:VisualElement>
+            <ui:VisualElement class="firefly firefly-right-6"><ui:VisualElement class="firefly-core"/></ui:VisualElement>
         </ui:VisualElement>
         <ui:VisualElement name="content" class="content">
             <ui:VisualElement name="title" class="title-logo" style="height: 257px; width: 80%;"/>
             <ui:VisualElement class="title-rule"/>
             <ui:VisualElement name="menu-list" class="menu-list">
-                <ui:VisualElement name="item-start" class="menu-item">
-                    <ui:Label text="INICIAR" class="menu-label"/>
-                </ui:VisualElement>
-                <ui:VisualElement name="item-load" class="menu-item">
-                    <ui:Label text="CARREGAR" class="menu-label"/>
-                </ui:VisualElement>
-                <ui:VisualElement name="item-options" class="menu-item">
-                    <ui:Label text="OPCOES" class="menu-label"/>
-                </ui:VisualElement>
-                <ui:VisualElement name="item-credits" class="menu-item">
-                    <ui:Label text="CREDITOS" class="menu-label"/>
-                </ui:VisualElement>
-                <ui:VisualElement name="item-exit" class="menu-item menu-item-spaced">
-                    <ui:Label text="SAIR" class="menu-label"/>
-                </ui:VisualElement>
+                <ui:VisualElement name="item-start" class="menu-item"><ui:Label text="INICIAR" class="menu-label"/><ui:VisualElement class="menu-leaf menu-leaf-left"/><ui:VisualElement class="menu-leaf menu-leaf-right"/></ui:VisualElement>
+                <ui:VisualElement name="item-load" class="menu-item"><ui:Label text="CARREGAR" class="menu-label"/><ui:VisualElement class="menu-leaf menu-leaf-left"/><ui:VisualElement class="menu-leaf menu-leaf-right"/></ui:VisualElement>
+                <ui:VisualElement name="item-options" class="menu-item"><ui:Label text="OPCOES" class="menu-label"/><ui:VisualElement class="menu-leaf menu-leaf-left"/><ui:VisualElement class="menu-leaf menu-leaf-right"/></ui:VisualElement>
+                <ui:VisualElement name="item-credits" class="menu-item"><ui:Label text="CREDITOS" class="menu-label"/><ui:VisualElement class="menu-leaf menu-leaf-left"/><ui:VisualElement class="menu-leaf menu-leaf-right"/></ui:VisualElement>
+                <ui:VisualElement name="item-exit" class="menu-item menu-item-spaced"><ui:Label text="SAIR" class="menu-label"/><ui:VisualElement class="menu-leaf menu-leaf-left"/><ui:VisualElement class="menu-leaf menu-leaf-right"/></ui:VisualElement>
             </ui:VisualElement>
         </ui:VisualElement>
         <ui:VisualElement name="options-root" class="options-root">
