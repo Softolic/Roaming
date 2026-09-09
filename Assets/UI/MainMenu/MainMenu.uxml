@@ -86,6 +86,6 @@
                 </ui:VisualElement>
             </ui:ScrollView>
         </ui:VisualElement>
-        <ui:Label text="v0.1.6" name="version" class="version"/>
+        <ui:Label text="v0.3.0" name="version" class="version"/>
     </ui:VisualElement>
 </ui:UXML>

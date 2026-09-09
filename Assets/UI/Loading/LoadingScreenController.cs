@@ -28,7 +28,7 @@ public sealed class LoadingScreenController : MonoBehaviour
         StartCoroutine(AnimateDots());
 
         float startedAt = Time.realtimeSinceStartup;
-        AsyncOperation operation = SceneManager.LoadSceneAsync(SaveSystem.GetSceneToLoad(targetScene));
+        AsyncOperation operation = SceneManager.LoadSceneAsync(ForestChapterTransition.ConsumeDestination(SaveSystem.GetSceneToLoad(targetScene)));
         operation.allowSceneActivation = false;
 
         while (operation.progress < 0.9f)
