@@ -2,45 +2,45 @@ using UnityEngine;
 
 public class SeguirCamera : MonoBehaviour
 {
-    [Tooltip("O alvo que a câmera deve seguir (normalmente o player).")]
+    [Tooltip("O alvo que a camera deve seguir (normalmente o player).")]
     public Transform alvo;
 
-    [Tooltip("Deslocamento em relação ao alvo.")]
+    [Tooltip("Deslocamento em relacao ao alvo.")]
     public Vector3 deslocamento = Vector3.zero;
 
-    [Tooltip("Velocidade de suavização do movimento da câmera.")]
+    [Tooltip("Velocidade de suavizacao do movimento da camera.")]
     public float velocidadeSuavizacao = 8f;
 
-    [Tooltip("Se desativado, a câmera mantém sua altura (Y) original e só segue X/Z.")]
+    [Tooltip("Se desativado, a camera mantem sua altura (Y) original e so segue X/Z.")]
     public bool seguirAltura = false;
 
-    [Header("Limites do Cenário")]
-    [Tooltip("Se ativado, a câmera para nas bordas do nível em vez de mostrar o vazio.")]
+    [Header("Limites do Cenario")]
+    [Tooltip("Se ativado, a camera para nas bordas do nivel em vez de mostrar o vazio.")]
     public bool usarLimites = false;
 
-    [Tooltip("Posição mínima da câmera (X = horizontal, Y = profundidade Z do mundo).")]
+    [Tooltip("Posicao minima da camera (X = horizontal, Y = profundidade Z do mundo).")]
     public Vector2 limiteMin = new Vector2(-50f, -50f);
 
-    [Tooltip("Posição máxima da câmera (X = horizontal, Y = profundidade Z do mundo).")]
+    [Tooltip("Posicao maxima da camera (X = horizontal, Y = profundidade Z do mundo).")]
     public Vector2 limiteMax = new Vector2(50f, 50f);
 
     [Header("Anti-Clipping")]
-    [Tooltip("Referência à câmera filha. Preencha para ativar anti-clipping.")]
+    [Tooltip("Referencia a camera filha. Preencha para ativar anti-clipping.")]
     public Camera cameraFilha;
 
-    [Tooltip("Layers que podem obstruir a câmera. Desmarque a layer do player e da UI.")]
+    [Tooltip("Layers que podem obstruir a camera. Desmarque a layer do player e da UI.")]
     public LayerMask layersObstaculo = ~0;
 
-    [Tooltip("Raio da esfera de detecção de colisão.")]
+    [Tooltip("Raio da esfera de deteccao de colisao.")]
     [Range(0.05f, 1f)]
     public float raioColisao = 0.2f;
 
     [Header("Look Ahead")]
-    [Tooltip("Quanto a câmera se antecipa na direção do movimento. 0 = desativado.")]
+    [Tooltip("Quanto a camera se antecipa na direcao do movimento. 0 = desativado.")]
     [Range(0f, 5f)]
     public float lookAhead = 1.5f;
 
-    [Tooltip("Velocidade de suavização do look ahead.")]
+    [Tooltip("Velocidade de suavizacao do look ahead.")]
     public float velocidadeLookAhead = 3f;
 
     private Vector3 _posicaoLocalIdeal;

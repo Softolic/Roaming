@@ -308,7 +308,7 @@
     top: 91%;
 }
 
-/* Folhas nas margens da opção atualmente selecionada. */
+/* Folhas nas margens da opcao atualmente selecionada. */
 .menu-item {
     overflow: visible;
 }
@@ -334,8 +334,17 @@
     right: -14px;
 }
 
-/* Repete o marcador visual mostrado na referência, apenas na opção ativa. */
+/* Repete o marcador visual mostrado na referencia, apenas na opcao ativa. */
 .menu-item.selected .menu-leaf,
 .menu-item:hover .menu-leaf {
     display: flex;
+}
+
+.chapters-title {
+    display: none;
+    color: rgb(173, 207, 113);
+    font-size: 24px;
+    letter-spacing: 3px;
+    margin-bottom: 18px;
+    -unity-text-align: middle-center;
 }

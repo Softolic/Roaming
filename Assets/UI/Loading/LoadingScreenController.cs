@@ -6,7 +6,7 @@ using UnityEngine.UIElements;
 [RequireComponent(typeof(UIDocument))]
 public sealed class LoadingScreenController : MonoBehaviour
 {
-    [SerializeField] private string targetScene = "Game";
+    [SerializeField] private string targetScene = "Prologo Remake";
     [SerializeField, Min(0f)] private float minimumDisplayTime = 2.2f;
     [SerializeField, Min(0.05f)] private float dotInterval = 0.4f;
 
@@ -21,14 +21,14 @@ public sealed class LoadingScreenController : MonoBehaviour
 
         if (loadingText == null || progressFill == null)
         {
-            Debug.LogError("LoadingScreenController: elementos da interface não encontrados.", this);
+            Debug.LogError("LoadingScreenController: elementos da interface nao encontrados.", this);
             yield break;
         }
 
         StartCoroutine(AnimateDots());
 
         float startedAt = Time.realtimeSinceStartup;
-        AsyncOperation operation = SceneManager.LoadSceneAsync(ForestChapterTransition.ConsumeDestination(SaveSystem.GetSceneToLoad(targetScene)));
+        AsyncOperation operation = SceneManager.LoadSceneAsync(SceneLoadRequest.Consume(SaveSystem.GetSceneToLoad(targetScene)));
         operation.allowSceneActivation = false;
 
         while (operation.progress < 0.9f)

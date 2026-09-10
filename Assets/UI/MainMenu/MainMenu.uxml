@@ -44,9 +44,15 @@
         <ui:VisualElement name="content" class="content">
             <ui:VisualElement name="title" class="title-logo" style="height: 257px; width: 80%;"/>
             <ui:VisualElement class="title-rule"/>
+            <ui:Label name="chapters-title" text="CAPITULOS" class="chapters-title"/>
             <ui:VisualElement name="menu-list" class="menu-list">
                 <ui:VisualElement name="item-start" class="menu-item">
-                    <ui:Label text="INICIAR" class="menu-label"/>
+                    <ui:Label text="NOVO JOGO" class="menu-label"/>
+                    <ui:VisualElement class="menu-leaf menu-leaf-left"/>
+                    <ui:VisualElement class="menu-leaf menu-leaf-right"/>
+                </ui:VisualElement>
+                <ui:VisualElement name="item-chapters" class="menu-item">
+                    <ui:Label text="CAPITULOS" class="menu-label"/>
                     <ui:VisualElement class="menu-leaf menu-leaf-left"/>
                     <ui:VisualElement class="menu-leaf menu-leaf-right"/>
                 </ui:VisualElement>

@@ -14,8 +14,8 @@ public sealed class ForestChapterArrival : MonoBehaviour
             var root = chapterIntro.rootVisualElement;
             var title = root.Q<Label>("chapter-name");
             var subtitle = root.Q<Label>("chapter-subtitle");
-            if (title != null) title.text = "CAPÍTULO 1";
-            if (subtitle != null) subtitle.text = "ENTRE AS ÁRVORES";
+            if (title != null) title.text = "CAPITULO 1";
+            if (subtitle != null) subtitle.text = "ENTRE AS ARVORES";
         }
         bool bringBall;
         bool arrived = ForestChapterTransition.ConsumeArrival(out bringBall);

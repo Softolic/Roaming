@@ -22,6 +22,11 @@ public static class SaveSystem
 
     public static bool HasSave => File.Exists(SavePath);
 
+    public static void CancelPendingLoad()
+    {
+        pendingLoad = null;
+    }
+
     public static bool SaveCurrentGame()
     {
         GameObject player = GameObject.FindGameObjectWithTag("Player");
@@ -47,7 +52,7 @@ public static class SaveSystem
         }
         catch (Exception exception)
         {
-            Debug.LogError($"SaveSystem: não foi possível salvar o jogo. {exception.Message}");
+            Debug.LogError($"SaveSystem: nao foi possivel salvar o jogo. {exception.Message}");
             return false;
         }
     }
@@ -56,7 +61,7 @@ public static class SaveSystem
     {
         if (!HasSave)
         {
-            Debug.Log("SaveSystem: não há nenhum save local.");
+            Debug.Log("SaveSystem: nao ha nenhum save local.");
             return false;
         }
 
@@ -65,7 +70,7 @@ public static class SaveSystem
             pendingLoad = JsonUtility.FromJson<SaveData>(File.ReadAllText(SavePath));
             if (pendingLoad == null || string.IsNullOrWhiteSpace(pendingLoad.sceneName))
             {
-                Debug.LogWarning("SaveSystem: o arquivo de save é inválido.");
+                Debug.LogWarning("SaveSystem: o arquivo de save e invalido.");
                 pendingLoad = null;
                 return false;
             }            SaveLoadRuntime.EnsureInstance();
@@ -73,7 +78,7 @@ public static class SaveSystem
         }
         catch (Exception exception)
         {
-            Debug.LogWarning($"SaveSystem: não foi possível carregar o save. {exception.Message}");
+            Debug.LogWarning($"SaveSystem: nao foi possivel carregar o save. {exception.Message}");
             pendingLoad = null;
             return false;
         }
@@ -98,7 +103,7 @@ public static bool HasPendingLoadFor(string sceneName)
         GameObject player = GameObject.FindGameObjectWithTag("Player");
         if (player == null)
         {
-            Debug.LogWarning("SaveSystem: jogador não encontrado para aplicar o save.");
+            Debug.LogWarning("SaveSystem: jogador nao encontrado para aplicar o save.");
             return;
         }
 

@@ -18,7 +18,7 @@ public sealed class ChapterIntroController : MonoBehaviour
 
         if (card == null)
         {
-            Debug.LogError("ChapterIntroController: elemento 'chapter-card' não foi encontrado.", this);
+            Debug.LogError("ChapterIntroController: elemento 'chapter-card' nao foi encontrado.", this);
             return;
         }
 

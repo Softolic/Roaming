@@ -18,6 +18,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Game.unity
     guid: b167a572037c3de4a9a2942e2dad5d9c
   - enabled: 1
+    path: Assets/Scenes/Prologo Remake.unity
+    guid: 1f55dc7918898194f8ce34438f259b0e
+  - enabled: 1
     path: Assets/Scenes/Capitulo 1.unity
     guid: dffcf0f10d868004791be3ddd30df741
   m_configObjects:

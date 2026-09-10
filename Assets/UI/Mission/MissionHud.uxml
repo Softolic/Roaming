@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" editor-extension-mode="False">
+    <Style src="MissionHud.uss" />
+    <ui:VisualElement name="mission-root" class="mission-root" picking-mode="Ignore">
+        <ui:Label name="mission-text" class="mission-text" text="MISSAO: VOLTE PARA CASA" picking-mode="Ignore" />
+    </ui:VisualElement>
+</ui:UXML>

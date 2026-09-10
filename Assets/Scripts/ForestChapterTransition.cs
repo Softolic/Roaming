@@ -6,14 +6,12 @@ public sealed class ForestChapterTransition : MonoBehaviour
 {
     [SerializeField] private string destinationScene = "Capitulo 1";
     private bool transitioning;
-    private static string pendingScene;
     private static bool pendingArrival;
     private static bool carryingBall;
 
-    [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.SubsystemRegistration)]
+[RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.SubsystemRegistration)]
     private static void ResetRequest()
     {
-        pendingScene = null;
         pendingArrival = false;
         carryingBall = false;
     }
@@ -31,14 +29,14 @@ public sealed class ForestChapterTransition : MonoBehaviour
         if (!Application.CanStreamedLevelBeLoaded(destinationScene)
             || !Application.CanStreamedLevelBeLoaded("carregamento"))
         {
-            Debug.LogError("A cena de destino ou carregamento não está na lista de cenas do jogo.", this);
+            Debug.LogError("A cena de destino ou carregamento nao esta na lista de cenas do jogo.", this);
             return false;
         }
 
         transitioning = true;
         var pickup = player.GetComponent<TobyBallPickup>();
         carryingBall = pickup != null && pickup.IsCarrying;
-        pendingScene = destinationScene;
+        SceneLoadRequest.Request(destinationScene);
         pendingArrival = true;
         player.enabled = false;
         var body = player.GetComponent<Rigidbody>();
@@ -48,13 +46,7 @@ public sealed class ForestChapterTransition : MonoBehaviour
         return true;
     }
 
-    public static string ConsumeDestination(string fallback)
-    {
-        if (string.IsNullOrEmpty(pendingScene)) return fallback;
-        string scene = pendingScene;
-        pendingScene = null;
-        return scene;
-    }
+
 
     public static bool ConsumeArrival(out bool bringBall)
     {

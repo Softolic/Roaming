@@ -10,11 +10,63 @@ public class MainMenuController : MonoBehaviour
     private readonly string[] itemNames =
     {
         "item-start",
+        "item-chapters",
         "item-load",
         "item-options",
         "item-credits",
         "item-exit"
     };
+
+
+    private bool showingChapters;
+    private bool loadingScene;
+    private int VisibleItemCount => showingChapters ? 4 : itemNames.Length;
+
+    private void ShowChapters()
+    {
+        showingChapters = true;
+        string[] labels = { "PROLOGO", "CAPITULO 1", "PROLOGO VANILLA", "VOLTAR" };
+        for (int i = 0; i < menuItems.Length; i++)
+        {
+            menuItems[i].style.display = i < labels.Length ? DisplayStyle.Flex : DisplayStyle.None;
+            if (i < labels.Length) menuLabels[i].text = labels[i];
+        }
+        root.Q<Label>("chapters-title").style.display = DisplayStyle.Flex;
+        SetSelection(0);
+        root.Focus();
+    }
+
+    private void ShowMainMenu()
+    {
+        showingChapters = false;
+        string[] labels = { "NOVO JOGO", "CAPITULOS", "CARREGAR", "OPCOES", "CREDITOS", "SAIR" };
+        for (int i = 0; i < menuItems.Length; i++)
+        {
+            menuItems[i].style.display = DisplayStyle.Flex;
+            menuLabels[i].text = labels[i];
+        }
+        root.Q<Label>("chapters-title").style.display = DisplayStyle.None;
+        SetSelection(1);
+        root.Focus();
+    }
+
+    private void StartChapter(string sceneName)
+    {
+        if (loadingScene) return;
+        if (!Application.CanStreamedLevelBeLoaded(sceneName)
+            || !Application.CanStreamedLevelBeLoaded("carregamento"))
+        {
+            Debug.LogError("A cena selecionada nao esta disponivel: " + sceneName);
+            return;
+        }
+        loadingScene = true;
+        SaveSystem.CancelPendingLoad();
+        bool unused;
+        ForestChapterTransition.ConsumeArrival(out unused);
+        Time.timeScale = 1f;
+        SceneLoadRequest.Request(sceneName);
+        SceneManager.LoadScene("carregamento");
+    }
 
     private VisualElement[] menuItems;
     
@@ -92,6 +144,13 @@ private void OnDisable()
 
 private void OnKeyDown(KeyDownEvent evt)
     {
+        if (showingChapters && evt.keyCode == KeyCode.Escape)
+        {
+            ShowMainMenu();
+            evt.StopPropagation();
+            return;
+        }
+
         var options = GetComponent<OptionsOverlay>();
         if (options != null && options.IsOpen)
         {
@@ -120,15 +179,15 @@ private void OnGeometryChanged(GeometryChangedEvent evt)
             0.55f,
             1.3f);
 
-        title.style.height = Mathf.Clamp(240f * scale, 150f, 280f);
+        title.style.height = Mathf.Clamp(210f * scale, 140f, 245f);
         titleRule.style.width = Mathf.Clamp(220f * scale, 140f, 300f);
         titleRule.style.marginBottom = 24f * scale;
 
         for (int i = 0; i < menuItems.Length; i++)
         {
             menuItems[i].style.width = Mathf.Clamp(300f * scale, 210f, 380f);
-            menuItems[i].style.height = Mathf.Clamp(55f * scale, 42f, 70f);
-            menuItems[i].style.marginBottom = Mathf.Clamp(12f * scale, 6f, 16f);
+            menuItems[i].style.height = Mathf.Clamp(48f * scale, 40f, 60f);
+            menuItems[i].style.marginBottom = Mathf.Clamp(8f * scale, 5f, 12f);
             menuLabels[i].style.fontSize = Mathf.Clamp(16f * scale, 12f, 20f);
         }
     }
@@ -183,7 +242,7 @@ private void UpdateFireflies()
     {
         int nextIndex = selectedIndex < 0
             ? 0
-            : (selectedIndex + direction + menuItems.Length) % menuItems.Length;
+            : (selectedIndex + direction + VisibleItemCount) % VisibleItemCount;
 
         SetSelection(nextIndex);
     }
@@ -197,12 +256,28 @@ private void UpdateFireflies()
 
 private void Activate(int index)
     {
+        if (loadingScene) return;
+        if (showingChapters)
+        {
+            switch (index)
+            {
+                case 0: StartChapter("Prologo Remake"); break;
+                case 1: StartChapter("Capitulo 1"); break;
+                case 2: StartChapter("Game"); break;
+                case 3: ShowMainMenu(); break;
+            }
+            return;
+        }
         switch (itemNames[index])
         {
             case "item-start":
-                SceneManager.LoadScene("carregamento");
+                StartChapter("Prologo Remake");
+                break;
+            case "item-chapters":
+                ShowChapters();
                 break;
             case "item-load":
+                SceneLoadRequest.Clear();
                 if (SaveSystem.PrepareLoad())
                     SceneManager.LoadScene("carregamento");
                 break;
@@ -210,7 +285,7 @@ private void Activate(int index)
                 GetComponent<OptionsOverlay>().Show();
                 break;
             case "item-credits":
-                Debug.Log("Abrir créditos");
+                Debug.Log("Abrir creditos");
                 break;
             case "item-exit":
                 Application.Quit();

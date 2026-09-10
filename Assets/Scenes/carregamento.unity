@@ -149,7 +149,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf75c9abdca45134db729566b2d2b9eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LoadingScreenController
-  targetScene: Game
+  targetScene: Prologo Remake
   minimumDisplayTime: 2.2
   dotInterval: 0.4
 --- !u!114 &1491985682
