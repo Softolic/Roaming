@@ -23,11 +23,6 @@ private void OnEnable()
         root.Q<Button>("save-button").clicked += SaveGame;
         root.Q<Button>("load-button").clicked += LoadGame;
         root.Q<Button>("options-button").clicked += OpenOptions;
-        var vanillaButton = root.Q<Button>("vanilla-button");
-        vanillaButton.style.display = SceneManager.GetActiveScene().name == "Prologo Remake"
-            ? DisplayStyle.Flex
-            : DisplayStyle.None;
-        vanillaButton.clicked += ReturnToVanilla;
         root.Q<Button>("exit-button").clicked += ExitToTitle;
         SetPaused(false);
     }
@@ -101,13 +96,5 @@ private void Update()
     {
         Time.timeScale = 1f;
         SceneManager.LoadScene("TelaTitulo");
-    }
-
-
-private void ReturnToVanilla()
-    {
-        Time.timeScale = 1f;
-        SceneLoadRequest.Request("Game");
-        SceneManager.LoadScene("carregamento");
     }
 }

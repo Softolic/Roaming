@@ -24,7 +24,7 @@ public sealed class ForestChapterArrival : MonoBehaviour
         {
             ball.gameObject.SetActive(true);
             ball.position = pickup.transform.position + Vector3.up * 0.1f;
-            pickup.TryPickUp();
+            pickup.TryPickUpImmediately();
         }
         else ball.gameObject.SetActive(false);
     }

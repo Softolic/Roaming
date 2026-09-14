@@ -73,7 +73,20 @@ public static class SaveSystem
                 Debug.LogWarning("SaveSystem: o arquivo de save e invalido.");
                 pendingLoad = null;
                 return false;
-            }            SaveLoadRuntime.EnsureInstance();
+            }
+
+            // Saves antigos do prologo vanilla continuam validos no remake.
+            if (pendingLoad.sceneName == "Game")
+                pendingLoad.sceneName = "Prologo Remake";
+
+            if (!Application.CanStreamedLevelBeLoaded(pendingLoad.sceneName))
+            {
+                Debug.LogWarning("SaveSystem: a cena salva nao esta disponivel.");
+                pendingLoad = null;
+                return false;
+            }
+
+            SaveLoadRuntime.EnsureInstance();
             return true;
         }
         catch (Exception exception)

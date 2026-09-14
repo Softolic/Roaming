@@ -1213,6 +1213,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!114 &15640459
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2695,6 +2699,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &25975106
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3264,6 +3272,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &29515475 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 6fb50e2d33819b9409071679111a52e0, type: 3}
@@ -3800,6 +3812,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &29515479
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4919,6 +4935,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &33493528
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5950,6 +5970,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &41290400
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6723,6 +6747,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &45221896
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7509,6 +7537,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &52377843
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9216,6 +9248,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &67761600
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9651,6 +9687,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &71912743 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 6fb50e2d33819b9409071679111a52e0, type: 3}
@@ -9718,6 +9758,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!4 &72189455 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2247354909284867117, guid: ea2d2cb9a25f296499e92390c0218132, type: 3}
@@ -10337,6 +10381,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &74731412
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11472,6 +11520,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &80789558
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11918,6 +11970,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &84206902
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14420,6 +14476,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &119939603
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15694,6 +15754,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &131017822
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17291,6 +17355,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &142334025
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18390,6 +18458,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &148338643
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18503,7 +18575,7 @@ CapsuleCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 1
   m_ProvidesContacts: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.019365245
   m_Height: 0.059663136
@@ -19107,6 +19179,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &151612393
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22509,6 +22585,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &192019286
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22619,6 +22699,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &195553707 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 6fb50e2d33819b9409071679111a52e0, type: 3}
@@ -22686,6 +22770,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!4 &197332669 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2247354909284867117, guid: ea2d2cb9a25f296499e92390c0218132, type: 3}
@@ -24078,6 +24166,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &213414541
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -24211,6 +24303,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &215812197
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -25257,7 +25353,7 @@ CapsuleCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 1
   m_ProvidesContacts: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.019365245
   m_Height: 0.059663136
@@ -26069,6 +26165,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &243265500
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -26154,6 +26254,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &244653223
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -26845,6 +26949,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &252343627
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -27451,6 +27559,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &265575716
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -28030,6 +28142,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &265598891
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -28242,6 +28358,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &269814876
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -28849,6 +28969,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &278119652
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -28916,6 +29040,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &278447100
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -29996,6 +30124,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &287023687
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -31299,6 +31431,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &305195317
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -31962,7 +32098,7 @@ CapsuleCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 1
   m_ProvidesContacts: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.019365245
   m_Height: 0.059663136
@@ -32899,6 +33035,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &310559851
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -33478,6 +33618,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &310617889
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -33591,7 +33735,7 @@ CapsuleCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 1
   m_ProvidesContacts: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.019365245
   m_Height: 0.059663136
@@ -33906,6 +34050,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!4 &317344421 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2247354909284867117, guid: ea2d2cb9a25f296499e92390c0218132, type: 3}
@@ -34508,6 +34656,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &318007686
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -34735,7 +34887,7 @@ CapsuleCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 1
   m_ProvidesContacts: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.019365245
   m_Height: 0.059663136
@@ -36091,7 +36243,7 @@ CapsuleCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 1
   m_ProvidesContacts: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.019365245
   m_Height: 0.059663136
@@ -36529,6 +36681,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &338278434
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -36713,7 +36869,7 @@ CapsuleCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 1
   m_ProvidesContacts: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.019365245
   m_Height: 0.059663136
@@ -37902,6 +38058,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &364142685
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -39883,6 +40043,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &375766425
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -40467,6 +40631,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &377658824
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -41542,6 +41710,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &382489819
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -42429,6 +42601,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &385345786
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -43452,6 +43628,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &391477163
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -43953,118 +44133,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ea2d2cb9a25f296499e92390c0218132, type: 3}
---- !u!1 &395591471
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 395591472}
-  - component: {fileID: 395591475}
-  - component: {fileID: 395591474}
-  - component: {fileID: 395591473}
-  m_Layer: 0
-  m_Name: Cube (2)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &395591472
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 395591471}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -12.73, y: -1.2, z: 25.61}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 801123318}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &395591473
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 395591471}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 8.753834, y: 16.28592, z: 21.77525}
-  m_Center: {x: 24.456156, y: 7.6429577, z: 5.263294}
---- !u!23 &395591474
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 395591471}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
-  m_SmallMeshCulling: 1
-  m_ForceMeshLod: -1
-  m_MeshLodSelectionBias: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_MaskInteraction: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &395591475
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 395591471}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1001 &396407492
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -46043,6 +46111,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &414591256
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -46734,6 +46806,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &433712807
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -47098,6 +47174,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &440372602
 GameObject:
   m_ObjectHideFlags: 0
@@ -48115,6 +48195,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &443504274
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -48882,6 +48966,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &446096956
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -49193,6 +49281,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!114 &454627338
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51283,6 +51375,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &469326324
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -51867,6 +51963,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &471133164
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -52451,6 +52551,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &476762498
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -53044,11 +53148,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ea2d2cb9a25f296499e92390c0218132, type: 3}
---- !u!4 &487818322 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -9172203349583734975, guid: b65f7c976eaecc34d9f34a62e89225e5, type: 3}
-  m_PrefabInstance: {fileID: 986209610}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &490759873
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -54308,6 +54407,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!4 &505508550 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2247354909284867117, guid: ea2d2cb9a25f296499e92390c0218132, type: 3}
@@ -55573,6 +55676,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &521073888
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -55711,6 +55818,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &524209480
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -56565,6 +56676,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &527583764
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -57873,6 +57988,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &538623392
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -58518,6 +58637,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &542057737
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -59616,6 +59739,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &545884532
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -60220,6 +60347,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &551399044
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -61344,6 +61475,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &562683424
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -62101,6 +62236,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &566954869
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -62915,6 +63054,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &577641779
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -66483,6 +66626,59 @@ Mesh:
       - serializedVersion: 1
         m_IndexStart: 0
         m_IndexCount: 0
+--- !u!1 &616504041
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 616504042}
+  - component: {fileID: 616504043}
+  m_Layer: 0
+  m_Name: Parede Norte
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &616504042
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 616504041}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 4.6, y: 5, z: 70.494286}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 895447001}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &616504043
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 616504041}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 159.87064, y: 12, z: 16.777546}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &616572117 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2247354909284867117, guid: ea2d2cb9a25f296499e92390c0218132, type: 3}
@@ -66712,6 +66908,59 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1373926819}
   m_SourcePrefab: {fileID: 100100000, guid: 6fb50e2d33819b9409071679111a52e0, type: 3}
+--- !u!1 &627320306
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 627320307}
+  - component: {fileID: 627320308}
+  m_Layer: 0
+  m_Name: Limite Oeste
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &627320307
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 627320306}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -78, y: 8, z: 23}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 895447001}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &627320308
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 627320306}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 2, y: 20, z: 110}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &627506921
 GameObject:
   m_ObjectHideFlags: 0
@@ -67936,6 +68185,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &634377371
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -71250,6 +71503,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &665124179
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -72277,6 +72534,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!114 &681092284
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -73596,6 +73857,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &689552398
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -75365,6 +75630,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &704934167
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -75408,118 +75677,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 2426508734089713321, guid: 6fb50e2d33819b9409071679111a52e0, type: 3}
---- !u!1 &706581795
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 706581796}
-  - component: {fileID: 706581799}
-  - component: {fileID: 706581798}
-  - component: {fileID: 706581797}
-  m_Layer: 0
-  m_Name: Cube (4)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &706581796
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 706581795}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -12.73, y: -1.2, z: 25.61}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 801123318}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &706581797
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 706581795}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 8.753834, y: 16.28592, z: 21.77525}
-  m_Center: {x: 24.456156, y: 7.6429577, z: 5.263294}
---- !u!23 &706581798
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 706581795}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
-  m_SmallMeshCulling: 1
-  m_ForceMeshLod: -1
-  m_MeshLodSelectionBias: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_MaskInteraction: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &706581799
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 706581795}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!4 &706917069 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2247354909284867117, guid: ea2d2cb9a25f296499e92390c0218132, type: 3}
@@ -75595,7 +75752,7 @@ CapsuleCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 1
   m_ProvidesContacts: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.019365245
   m_Height: 0.059663136
@@ -76774,6 +76931,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &715156016
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -77029,6 +77190,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &718583643
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -77157,12 +77322,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 719461692}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.6825902, y: -2.5828226e-10, z: -2.7452526e-10, w: 0.73080146}
-  m_LocalPosition: {x: 6.26274e-11, y: -0.00084436144, z: -0.00038841378}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: 0.000000029802305, y: -1.2476423e-13, z: -1.1655226e-13, w: 1}
+  m_LocalPosition: {x: 0.0000000064952497, y: 0.000031110136, z: 0.0011342564}
+  m_LocalScale: {x: 0.004431648, y: 0.0044316407, z: 0.0044316472}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 487818322}
+  m_Father: {fileID: 986209614}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &719703345
 PrefabInstance:
@@ -77349,6 +77514,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &723152230
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -78563,6 +78732,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &733469639
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -80942,6 +81115,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &754051891
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -82468,7 +82645,7 @@ CapsuleCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 1
   m_ProvidesContacts: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.019365245
   m_Height: 0.059663136
@@ -83199,6 +83376,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &778112462
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -85114,12 +85295,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 48131447}
-  - {fileID: 1326648776}
-  - {fileID: 395591472}
-  - {fileID: 1061107434}
-  - {fileID: 1874223118}
-  - {fileID: 706581796}
-  - {fileID: 2048836206}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &802294889
@@ -86167,6 +86342,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &806933612
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -87124,6 +87303,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!114 &813305497
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -88653,6 +88836,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &824584926
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -89899,6 +90086,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &834307457
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -90666,6 +90857,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &839758918
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -91255,6 +91450,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &844225796
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -91900,6 +92099,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &849339361
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -92479,6 +92682,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &850278460
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -94186,6 +94393,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &873720677
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -94633,6 +94844,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &880323178
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -95931,6 +96146,44 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2247354909284867117, guid: ea2d2cb9a25f296499e92390c0218132, type: 3}
   m_PrefabInstance: {fileID: 1550355487}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &895447000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 895447001}
+  m_Layer: 0
+  m_Name: Hitboxes Refeitas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &895447001
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 895447000}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 627320307}
+  - {fileID: 1036251113}
+  - {fileID: 1635180354}
+  - {fileID: 1027793491}
+  - {fileID: 1940746833}
+  - {fileID: 1187202387}
+  - {fileID: 616504042}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &896781064
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -96991,6 +97244,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &908767964
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -97570,6 +97827,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &908941616
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -98288,6 +98549,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &911044282
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -98604,6 +98869,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!114 &916345334
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -99631,7 +99900,7 @@ CapsuleCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 1
   m_ProvidesContacts: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.019365245
   m_Height: 0.059663136
@@ -99779,6 +100048,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &922225178
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -100449,6 +100722,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &927503201
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -101113,6 +101390,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &936853062
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -102155,6 +102436,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &941557776
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -102734,6 +103019,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &942121406
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -103505,6 +103794,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &947679722
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -104341,6 +104634,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &954073997
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -104955,6 +105252,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &957171218
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -105032,6 +105333,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &960227408
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -106676,19 +106981,49 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
-    - targetCorrespondingSourceObject: {fileID: -9172203349583734975, guid: b65f7c976eaecc34d9f34a62e89225e5, type: 3}
+    - targetCorrespondingSourceObject: {fileID: -757581067655239557, guid: b65f7c976eaecc34d9f34a62e89225e5, type: 3}
       insertIndex: -1
       addedObject: {fileID: 719461693}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: b65f7c976eaecc34d9f34a62e89225e5, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 986209613}
   m_SourcePrefab: {fileID: 100100000, guid: b65f7c976eaecc34d9f34a62e89225e5, type: 3}
 --- !u!4 &986209611 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: b65f7c976eaecc34d9f34a62e89225e5, type: 3}
   m_PrefabInstance: {fileID: 986209610}
   m_PrefabAsset: {fileID: 0}
---- !u!95 &986209612 stripped
+--- !u!1 &986209612 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: b65f7c976eaecc34d9f34a62e89225e5, type: 3}
+  m_PrefabInstance: {fileID: 986209610}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &986209613
 Animator:
-  m_CorrespondingSourceObject: {fileID: 5866666021909216657, guid: b65f7c976eaecc34d9f34a62e89225e5, type: 3}
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 986209612}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: e63f7611ee9d8ef4087778be4c66d077, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!4 &986209614 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -757581067655239557, guid: b65f7c976eaecc34d9f34a62e89225e5, type: 3}
   m_PrefabInstance: {fileID: 986209610}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &986214034
@@ -106900,7 +107235,7 @@ CapsuleCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 1
   m_ProvidesContacts: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.019365245
   m_Height: 0.059663136
@@ -107118,6 +107453,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &993126729
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -107228,6 +107567,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &993434817
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -108479,6 +108822,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &1000041711
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -109201,6 +109548,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!114 &1008298333
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -109945,6 +110296,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &1013268656 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 6fb50e2d33819b9409071679111a52e0, type: 3}
@@ -110012,6 +110367,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &1014656782
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -110749,6 +111108,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &1017679075 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 6fb50e2d33819b9409071679111a52e0, type: 3}
@@ -110773,6 +111136,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &1017679078
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -110999,6 +111366,59 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 2058657026}
   m_SourcePrefab: {fileID: 100100000, guid: 6fb50e2d33819b9409071679111a52e0, type: 3}
+--- !u!1 &1027793490
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1027793491}
+  - component: {fileID: 1027793492}
+  m_Layer: 0
+  m_Name: Limite Sul
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1027793491
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1027793490}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1, y: 8, z: -32}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 895447001}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1027793492
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1027793490}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 160, y: 20, z: 2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &1028563974 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2247354909284867117, guid: ea2d2cb9a25f296499e92390c0218132, type: 3}
@@ -111681,6 +112101,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &1031434602
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -111880,6 +112304,59 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ea2d2cb9a25f296499e92390c0218132, type: 3}
+--- !u!1 &1036251112
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1036251113}
+  - component: {fileID: 1036251114}
+  m_Layer: 0
+  m_Name: Limite Leste
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1036251113
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1036251112}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 80, y: 8, z: 23}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 895447001}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1036251114
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1036251112}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 2, y: 20, z: 110}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1037086501
 GameObject:
   m_ObjectHideFlags: 0
@@ -113541,118 +114018,6 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 778112460}
   m_SourcePrefab: {fileID: 100100000, guid: 6fb50e2d33819b9409071679111a52e0, type: 3}
---- !u!1 &1061107433
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1061107434}
-  - component: {fileID: 1061107437}
-  - component: {fileID: 1061107436}
-  - component: {fileID: 1061107435}
-  m_Layer: 0
-  m_Name: Cube (5)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1061107434
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1061107433}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -64.4, y: -1.2, z: 8.9}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 801123318}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &1061107435
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1061107433}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 16.57071, y: 16.28592, z: 55.516884}
-  m_Center: {x: 28.364594, y: 7.6429577, z: 2.9473038}
---- !u!23 &1061107436
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1061107433}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
-  m_SmallMeshCulling: 1
-  m_ForceMeshLod: -1
-  m_MeshLodSelectionBias: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_MaskInteraction: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &1061107437
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1061107433}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1001 &1061495336
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -114518,6 +114883,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &1065001121
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -114681,6 +115050,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &1069792402
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -115346,6 +115719,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &1073185995
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -115925,6 +116302,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &1073839729
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -117991,6 +118372,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &1088201783
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -118058,6 +118443,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &1089032169
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -118125,6 +118514,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!114 &1090900543
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -119518,6 +119911,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &1096400311
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -120140,6 +120537,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &1097361465
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -120559,6 +120960,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &1101075205
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -120828,7 +121233,7 @@ CapsuleCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 1
   m_ProvidesContacts: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.019365245
   m_Height: 0.059663136
@@ -121481,6 +121886,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &1119953429
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -122238,6 +122647,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &1120195975
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -122409,6 +122822,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!4 &1125938707 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2247354909284867117, guid: ea2d2cb9a25f296499e92390c0218132, type: 3}
@@ -123655,6 +124072,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &1135424248
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -124632,6 +125053,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &1139331571
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -126110,6 +126535,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &1144778102
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -126431,6 +126860,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &1151438948
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -126737,6 +127170,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &1153382134
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -127782,6 +128219,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &1169097743
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -128429,7 +128870,7 @@ CapsuleCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 1
   m_ProvidesContacts: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.019365245
   m_Height: 0.059663136
@@ -128641,6 +129082,59 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2247354909284867117, guid: ea2d2cb9a25f296499e92390c0218132, type: 3}
   m_PrefabInstance: {fileID: 190907528}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1187202386
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1187202387}
+  - component: {fileID: 1187202388}
+  m_Layer: 0
+  m_Name: Parede Leste
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1187202387
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1187202386}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 75.77349, y: 5, z: 41.424034}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 895447001}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1187202388
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1187202386}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 56.63615, y: 12, z: 65.13909}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1187936432 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 6fb50e2d33819b9409071679111a52e0, type: 3}
@@ -129177,6 +129671,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &1187936436
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -130337,6 +130835,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &1193454345
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -132950,6 +133452,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &1220608877
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -133727,6 +134233,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &1224356585
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -134311,6 +134821,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &1227427740
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -134895,6 +135409,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &1233914838
 GameObject:
   m_ObjectHideFlags: 0
@@ -136244,6 +136762,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &1248053324
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -137497,6 +138019,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &1257090380
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -139617,6 +140143,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!4 &1269106595 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2247354909284867117, guid: ea2d2cb9a25f296499e92390c0218132, type: 3}
@@ -140367,6 +140897,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &1269503598
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -140505,6 +141039,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &1274336312
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -140638,6 +141176,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &1283681784
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -141217,6 +141759,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &1286275172
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -141284,6 +141830,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &1288244559
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -142000,6 +142550,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &1290296869
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -142691,6 +143245,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &1291112342
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -142758,6 +143316,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &1292631380
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -143398,6 +143960,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &1294735928
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -144842,6 +145408,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &1315640422
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -145715,118 +146285,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ea2d2cb9a25f296499e92390c0218132, type: 3}
---- !u!1 &1326648775
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1326648776}
-  - component: {fileID: 1326648779}
-  - component: {fileID: 1326648778}
-  - component: {fileID: 1326648777}
-  m_Layer: 0
-  m_Name: Cube (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1326648776
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1326648775}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -22.2, y: -1.2, z: 20.3}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 801123318}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &1326648777
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1326648775}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 161.59433, y: 16.28592, z: 1}
-  m_Center: {x: -43.03981, y: 7.642958, z: 0}
---- !u!23 &1326648778
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1326648775}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
-  m_SmallMeshCulling: 1
-  m_ForceMeshLod: -1
-  m_MeshLodSelectionBias: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_MaskInteraction: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &1326648779
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1326648775}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &1326891486
 GameObject:
   m_ObjectHideFlags: 0
@@ -147207,6 +147665,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &1331864715
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -147964,6 +148426,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &1334637395
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -150438,6 +150904,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &1365960242
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -151339,6 +151809,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &1373926821
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -152584,6 +153058,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &1388036046
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -154214,6 +154692,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &1404211336
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -155341,6 +155823,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &1422723539
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -156954,6 +157440,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &1433658432
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -157533,6 +158023,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &1433791017
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -158569,6 +159063,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &1435518292
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -159099,6 +159597,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!114 &1444351865
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -162643,6 +163145,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &1479293239
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -163344,6 +163850,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &1483702048
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -164687,6 +165197,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &1498142007
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -165980,6 +166494,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &1506343981
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -166098,7 +166616,7 @@ CapsuleCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 1
   m_ProvidesContacts: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.019365245
   m_Height: 0.059663136
@@ -168298,6 +168816,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &1529566020
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -169220,6 +169742,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &1533646827
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -169330,6 +169856,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!4 &1535698102 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2247354909284867117, guid: ea2d2cb9a25f296499e92390c0218132, type: 3}
@@ -169420,7 +169950,7 @@ CapsuleCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 1
   m_ProvidesContacts: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.019365245
   m_Height: 0.059663136
@@ -170019,6 +170549,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &1540382954
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -170421,6 +170955,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &1547604710
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -171395,6 +171933,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &1553846469
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -173562,6 +174104,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &1570936119
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -173853,7 +174399,7 @@ CapsuleCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 1
   m_ProvidesContacts: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.019365245
   m_Height: 0.059663136
@@ -174006,6 +174552,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &1578793768
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -174073,6 +174623,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &1578996437
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -174892,6 +175446,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &1589454160
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -176138,6 +176696,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &1595158747
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -176807,6 +177369,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &1599602238
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -177386,6 +177952,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &1599662665
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -178505,6 +179075,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &1607009098
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -178852,7 +179426,7 @@ CapsuleCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 1
   m_ProvidesContacts: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.019365245
   m_Height: 0.059663136
@@ -180401,6 +180975,59 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2247354909284867117, guid: ea2d2cb9a25f296499e92390c0218132, type: 3}
   m_PrefabInstance: {fileID: 353094810}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1635180353
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1635180354}
+  - component: {fileID: 1635180355}
+  m_Layer: 0
+  m_Name: Limite Norte
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1635180354
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1635180353}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1, y: 8, z: 77}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 895447001}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1635180355
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1635180353}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 160, y: 20, z: 2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1635677661
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -181367,6 +181994,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &1640296327
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -183005,6 +183636,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &1646954654
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -184159,6 +184794,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &1651584522
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -184355,6 +184994,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!114 &1659467125
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -185403,6 +186046,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &1659742577
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -186068,6 +186715,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &1663162552
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -187174,6 +187825,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &1668810688
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -187947,6 +188602,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &1671044342
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -188713,6 +189372,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &1672887907
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -189292,6 +189955,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &1675486801
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -191060,6 +191727,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &1690135464
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -191925,6 +192596,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &1698850547
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -192931,6 +193606,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &1706225771
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -193510,6 +194189,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &1707838323
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -194464,6 +195147,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &1717988928
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -198324,6 +199011,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &1761689165
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -199824,6 +200515,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &1769657604
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -199937,7 +200632,7 @@ CapsuleCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 1
   m_ProvidesContacts: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.019365245
   m_Height: 0.059663136
@@ -200736,6 +201431,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &1773620304
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -201330,6 +202029,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &1775276363
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -201947,6 +202650,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!4 &1785522749 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2247354909284867117, guid: ea2d2cb9a25f296499e92390c0218132, type: 3}
@@ -202488,6 +203195,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &1787234004
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -203067,6 +203778,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &1787939677
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -204335,6 +205050,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &1802572859
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -204786,7 +205505,7 @@ CapsuleCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 1
   m_ProvidesContacts: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.019365245
   m_Height: 0.059663136
@@ -206391,6 +207110,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &1823338675
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -207092,6 +207815,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &1825164784
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -208062,6 +208789,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &1830462442
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -208175,7 +208906,7 @@ CapsuleCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 1
   m_ProvidesContacts: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.019365245
   m_Height: 0.059663136
@@ -208872,7 +209603,7 @@ CapsuleCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 1
   m_ProvidesContacts: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.019365245
   m_Height: 0.059663136
@@ -209471,6 +210202,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &1838103016
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -210650,6 +211385,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &1845868320
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -212258,6 +212997,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &1857771130
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -212686,7 +213429,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 80
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!65 &1869375131
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -212968,7 +213711,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8fe9f704fe4a05d4d9f72cbf020351e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TobyWalkAnimation
-  animator: {fileID: 986209612}
+  animator: {fileID: 986209613}
   movement: {fileID: 1869375128}
 --- !u!114 &1869375138
 MonoBehaviour:
@@ -212985,7 +213728,10 @@ MonoBehaviour:
   ball: {fileID: 82383337}
   mouth: {fileID: 719461693}
   movement: {fileID: 1869375128}
+  animator: {fileID: 986209613}
   pickupDistance: 1.2
+  pickupAttachDelay: 0.72
+  pickupAnimationDuration: 1.48
 --- !u!1 &1870667504
 GameObject:
   m_ObjectHideFlags: 0
@@ -213746,6 +214492,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &1872818288
 GameObject:
   m_ObjectHideFlags: 0
@@ -213873,118 +214623,6 @@ Light:
   m_LightUnit: 1
   m_LuxAtDistance: 1
   m_EnableSpotReflector: 1
---- !u!1 &1874223117
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1874223118}
-  - component: {fileID: 1874223121}
-  - component: {fileID: 1874223120}
-  - component: {fileID: 1874223119}
-  m_Layer: 0
-  m_Name: Cube (6)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1874223118
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1874223117}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 149.2, y: -1.2, z: 8.9}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 801123318}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &1874223119
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1874223117}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 5.336418, y: 16.28592, z: 55.516884}
-  m_Center: {x: -32.187, y: 7.6429577, z: 2.9473038}
---- !u!23 &1874223120
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1874223117}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
-  m_SmallMeshCulling: 1
-  m_ForceMeshLod: -1
-  m_MeshLodSelectionBias: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_MaskInteraction: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &1874223121
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1874223117}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &1877633346 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 6fb50e2d33819b9409071679111a52e0, type: 3}
@@ -214009,6 +214647,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &1877633349
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -214588,6 +215230,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &1877798406
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -215149,6 +215795,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &1882503032
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -215661,6 +216311,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &1885871930
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -215992,6 +216646,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &1891174449
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -217181,6 +217839,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &1910296871
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -217248,6 +217910,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &1911133934
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -219258,6 +219924,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &1931485637
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -219832,6 +220502,59 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ea2d2cb9a25f296499e92390c0218132, type: 3}
+--- !u!1 &1940746832
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1940746833}
+  - component: {fileID: 1940746834}
+  m_Layer: 0
+  m_Name: Parede Oeste
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1940746833
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1940746832}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -35.2, y: 5, z: 49.300003}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 895447001}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1940746834
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1940746832}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 56.63615, y: 12, z: 65.13909}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1941501739
 GameObject:
   m_ObjectHideFlags: 0
@@ -220823,6 +221546,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!114 &1955793576
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -221914,6 +222641,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &1956186695
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -222161,6 +222892,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &1967780262
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -222931,6 +223666,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &1973181873
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -223933,6 +224672,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &1977769828
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -224323,7 +225066,7 @@ CapsuleCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 1
   m_ProvidesContacts: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.019365245
   m_Height: 0.059663136
@@ -225591,6 +226334,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &1991860334
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -227138,6 +227885,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &1996680574
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -229256,6 +230007,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &2016121913
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -230663,6 +231418,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &2026066534
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -230920,7 +231679,7 @@ CapsuleCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 1
   m_ProvidesContacts: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.019365245
   m_Height: 0.059663136
@@ -231839,7 +232598,7 @@ CapsuleCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 1
   m_ProvidesContacts: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.019365245
   m_Height: 0.059663136
@@ -232082,118 +232841,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2247354909284867117, guid: ea2d2cb9a25f296499e92390c0218132, type: 3}
   m_PrefabInstance: {fileID: 1181057092}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &2048836205
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2048836206}
-  - component: {fileID: 2048836209}
-  - component: {fileID: 2048836208}
-  - component: {fileID: 2048836207}
-  m_Layer: 0
-  m_Name: Cube (3)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2048836206
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2048836205}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: 0.16833143, z: -0, w: 0.98573047}
-  m_LocalPosition: {x: -9.1, y: -1.2, z: 45.9}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 801123318}
-  m_LocalEulerAnglesHint: {x: 0, y: 19.382, z: 0}
---- !u!65 &2048836207
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2048836205}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 8.753834, y: 16.28592, z: 64.929245}
-  m_Center: {x: 24.45628, y: 7.6430674, z: 16.18294}
---- !u!23 &2048836208
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2048836205}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
-  m_SmallMeshCulling: 1
-  m_ForceMeshLod: -1
-  m_MeshLodSelectionBias: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_MaskInteraction: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &2048836209
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2048836205}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!4 &2049681932 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2247354909284867117, guid: ea2d2cb9a25f296499e92390c0218132, type: 3}
@@ -233793,6 +234440,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &2058657028
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -234415,6 +235066,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &2060756902
 GameObject:
   m_ObjectHideFlags: 0
@@ -235323,6 +235978,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &2063725229
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -235835,6 +236494,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!114 &2070529759
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -237522,6 +238185,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &2074165099
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -238167,6 +238834,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &2076025339
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -240472,6 +241143,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &2092490196
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -241760,6 +242435,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &2101368732
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -243059,6 +243738,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &2107201371
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -243938,6 +244621,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &2111931979
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -244517,6 +245204,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &2112067235
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -244741,6 +245432,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &2115641334
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -245478,6 +246173,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &2117256474
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -246057,6 +246756,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &2118696781
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -246636,6 +247339,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &2119819529
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -247619,6 +248326,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &2124849145
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -248252,6 +248963,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &2126225771
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -249014,6 +249729,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &2128568522
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -249124,6 +249843,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &2132698552
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -249746,6 +250469,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &2133985437
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -250384,6 +251111,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &2144866045
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -251269,6 +252000,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8
   intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!65 &2147061101
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -251330,3 +252065,4 @@ SceneRoots:
   - {fileID: 82383341}
   - {fileID: 799180044}
   - {fileID: 1870667507}
+  - {fileID: 895447001}

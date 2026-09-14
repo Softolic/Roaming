@@ -20,12 +20,12 @@ public class MainMenuController : MonoBehaviour
 
     private bool showingChapters;
     private bool loadingScene;
-    private int VisibleItemCount => showingChapters ? 4 : itemNames.Length;
+    private int VisibleItemCount => showingChapters ? 3 : itemNames.Length;
 
     private void ShowChapters()
     {
         showingChapters = true;
-        string[] labels = { "PROLOGO", "CAPITULO 1", "PROLOGO VANILLA", "VOLTAR" };
+        string[] labels = { "PROLOGO", "CAPITULO 1", "VOLTAR" };
         for (int i = 0; i < menuItems.Length; i++)
         {
             menuItems[i].style.display = i < labels.Length ? DisplayStyle.Flex : DisplayStyle.None;
@@ -263,8 +263,7 @@ private void Activate(int index)
             {
                 case 0: StartChapter("Prologo Remake"); break;
                 case 1: StartChapter("Capitulo 1"); break;
-                case 2: StartChapter("Game"); break;
-                case 3: ShowMainMenu(); break;
+                case 2: ShowMainMenu(); break;
             }
             return;
         }

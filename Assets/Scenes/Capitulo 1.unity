@@ -427,7 +427,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.58232486
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &12729284
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -658,7 +662,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.76097155
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &18202399
 GameObject:
   m_ObjectHideFlags: 0
@@ -729,7 +737,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.56238186
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &21452772
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1116,7 +1128,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.74267566
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &26387882
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2229,7 +2245,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.75463843
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &53365892
 GameObject:
   m_ObjectHideFlags: 0
@@ -2300,7 +2320,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.69294083
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &54170036
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2453,7 +2477,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.68217534
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &57940683
 GameObject:
   m_ObjectHideFlags: 0
@@ -2524,7 +2552,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.80221784
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &58506114
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3001,7 +3033,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.6552955
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &67723557
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3154,7 +3190,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.5944383
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &71280456
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3307,7 +3347,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8498601
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &72656570
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3616,7 +3660,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.6396259
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &76696450
 GameObject:
   m_ObjectHideFlags: 0
@@ -3687,7 +3735,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8304361
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &77112339
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4062,7 +4114,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.6178669
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &85464596
 GameObject:
   m_ObjectHideFlags: 0
@@ -4133,7 +4189,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.5623939
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &87425910
 GameObject:
   m_ObjectHideFlags: 0
@@ -4204,7 +4264,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.6661296
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &87775857
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4357,7 +4421,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.83371675
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &92959527
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4666,7 +4734,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.61073184
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &100184721
 GameObject:
   m_ObjectHideFlags: 0
@@ -4737,7 +4809,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.77784806
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &100255873
 GameObject:
   m_ObjectHideFlags: 0
@@ -4808,7 +4884,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.5883948
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &101668756
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5113,7 +5193,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.6462721
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &106628173
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5266,7 +5350,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.6953092
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &108294456
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5735,7 +5823,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.6521938
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &114351486
 GameObject:
   m_ObjectHideFlags: 0
@@ -5806,7 +5898,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.6199635
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &119672824
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6213,6 +6309,59 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 6fb50e2d33819b9409071679111a52e0, type: 3}
   m_PrefabInstance: {fileID: 127820295}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &128616669
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 128616670}
+  - component: {fileID: 128616671}
+  m_Layer: 0
+  m_Name: Limite Sul
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &128616670
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 128616669}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 8, z: -68}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2028215510}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &128616671
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 128616669}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 116, y: 20, z: 2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &131766326
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6521,7 +6670,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.74817914
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &138963168
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6674,7 +6827,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.64153016
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &141416761
 GameObject:
   m_ObjectHideFlags: 0
@@ -6745,7 +6902,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.82150936
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &142522471
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7058,7 +7219,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.55834836
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &151534747
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7207,7 +7372,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.6886028
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &154472919
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7598,7 +7767,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.6119369
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &165698712
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7833,7 +8006,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.6154194
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &172264650
 GameObject:
   m_ObjectHideFlags: 0
@@ -7904,7 +8081,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.7758282
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &175481435
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8057,7 +8238,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.78358567
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &177507823
 GameObject:
   m_ObjectHideFlags: 0
@@ -8128,7 +8313,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.64083284
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &180572628
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8359,7 +8548,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.7635265
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &184855949
 GameObject:
   m_ObjectHideFlags: 0
@@ -8974,7 +9167,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.69373405
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &190794539
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9123,7 +9320,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.6260137
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &191950361
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9588,7 +9789,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.6590912
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &205632208
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9975,7 +10180,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.75318867
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &212056971
 GameObject:
   m_ObjectHideFlags: 0
@@ -10046,7 +10255,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.7166071
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &214265794
 GameObject:
   m_ObjectHideFlags: 0
@@ -10117,7 +10330,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.6299804
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &215907611
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10270,7 +10487,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.7656816
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &217605327
 GameObject:
   m_ObjectHideFlags: 0
@@ -10341,7 +10562,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.5545667
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &218806922
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10490,7 +10715,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.6102569
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &220548999
 GameObject:
   m_ObjectHideFlags: 0
@@ -10561,7 +10790,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.73474437
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &222181299
 GameObject:
   m_ObjectHideFlags: 0
@@ -10632,7 +10865,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.76896113
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &223896630
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10863,7 +11100,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.71269107
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &228004277
 GameObject:
   m_ObjectHideFlags: 0
@@ -10934,7 +11175,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8063945
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &228078760
 GameObject:
   m_ObjectHideFlags: 0
@@ -11005,7 +11250,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.83156776
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &228201781
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11236,7 +11485,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8332938
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &234354289
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11783,7 +12036,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.6270478
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &245925773
 GameObject:
   m_ObjectHideFlags: 0
@@ -11854,7 +12111,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.633104
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &247768775
 GameObject:
   m_ObjectHideFlags: 0
@@ -11925,7 +12186,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.55299103
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &249002340
 GameObject:
   m_ObjectHideFlags: 0
@@ -11996,7 +12261,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.58291805
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &249217641
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12391,7 +12660,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.6810802
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &254391294
 GameObject:
   m_ObjectHideFlags: 0
@@ -12462,7 +12735,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.6178628
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &254401663
 GameObject:
   m_ObjectHideFlags: 0
@@ -12533,7 +12810,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.7540376
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &255857773
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12764,7 +13045,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.57055753
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &259368780
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13155,7 +13440,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.6058647
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &264100724
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13468,7 +13757,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.63328344
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &270548129
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13695,7 +13988,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.7372212
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &279138217
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13848,7 +14145,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.5712468
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &281388211
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14157,7 +14458,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8340824
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &291401724
 GameObject:
   m_ObjectHideFlags: 0
@@ -14228,7 +14533,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.71784586
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &293237276
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14632,7 +14941,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.70979184
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &298964665
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14875,6 +15188,59 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2247354909284867117, guid: ea2d2cb9a25f296499e92390c0218132, type: 3}
   m_PrefabInstance: {fileID: 300936039}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &301744203
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 301744204}
+  - component: {fileID: 301744205}
+  m_Layer: 0
+  m_Name: Limite Leste
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &301744204
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 301744203}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 57, y: 8, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2028215510}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &301744205
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 301744203}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 2, y: 20, z: 138}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &302531784
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15023,7 +15389,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.6417202
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &306640185
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15172,7 +15542,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.6511281
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &306900264
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15321,7 +15695,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.7812874
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &311749572
 GameObject:
   m_ObjectHideFlags: 0
@@ -15392,7 +15770,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.844501
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &312452563
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15545,7 +15927,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8141382
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &323678141
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15858,7 +16244,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.7727681
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &327686370
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16011,7 +16401,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.7222581
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &328167509
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16320,7 +16714,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.75065875
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &333629207
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16711,7 +17109,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.57340443
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &346494502
 GameObject:
   m_ObjectHideFlags: 0
@@ -16782,7 +17184,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.80988157
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &351760850
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17009,7 +17415,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.80079824
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &353105308
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17236,7 +17646,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.64301443
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &355779140
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17385,7 +17799,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.69825006
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &363914137
 GameObject:
   m_ObjectHideFlags: 0
@@ -17456,7 +17874,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.68203235
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &364200027
 GameObject:
   m_ObjectHideFlags: 0
@@ -17527,7 +17949,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.5693257
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &368796049
 GameObject:
   m_ObjectHideFlags: 0
@@ -17598,7 +18024,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.74897707
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &369111441
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17747,7 +18177,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.5954003
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &370224886
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18142,7 +18576,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.7597836
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &378709151
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18660,7 +19098,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.822301
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &391455846
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18969,7 +19411,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.58697647
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &404985927
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19364,7 +19810,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.81714404
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &410916935
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19591,7 +20041,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.7165015
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &412898392
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20064,7 +20518,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8076664
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &423832835
 GameObject:
   m_ObjectHideFlags: 0
@@ -20135,7 +20593,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.5642389
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &424751316
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20612,7 +21074,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.79831594
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &435490221
 GameObject:
   m_ObjectHideFlags: 0
@@ -20683,7 +21149,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.7536682
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &437513418
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20992,7 +21462,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.7733924
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &447087407
 GameObject:
   m_ObjectHideFlags: 0
@@ -21520,7 +21994,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.61396253
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &457755517
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21669,7 +22147,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.6478564
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &458748877
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21818,7 +22300,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.5531017
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &459887573
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22291,7 +22777,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.7724471
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &472726446
 GameObject:
   m_ObjectHideFlags: 0
@@ -22362,7 +22852,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.65238947
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &473236203
 GameObject:
   m_ObjectHideFlags: 0
@@ -22433,7 +22927,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.703026
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &476050932
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22742,7 +23240,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.77098995
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &481104611
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23055,7 +23557,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.73642117
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &485257396
 GameObject:
   m_ObjectHideFlags: 0
@@ -23126,7 +23632,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8099613
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &486431196
 GameObject:
   m_ObjectHideFlags: 0
@@ -23197,12 +23707,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.56517327
-  intensidadeVento: 0.65
---- !u!4 &487818322 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -9172203349583734975, guid: b65f7c976eaecc34d9f34a62e89225e5, type: 3}
-  m_PrefabInstance: {fileID: 986209610}
-  m_PrefabAsset: {fileID: 0}
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &490283575
 GameObject:
   m_ObjectHideFlags: 0
@@ -23273,7 +23782,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.7996353
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &491495839
 GameObject:
   m_ObjectHideFlags: 0
@@ -23344,7 +23857,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.7408226
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &493910344
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23579,7 +24096,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8284212
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &500668212
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24122,7 +24643,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.6191468
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &515045501
 GameObject:
   m_ObjectHideFlags: 0
@@ -24193,7 +24718,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.75041795
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &515397209
 GameObject:
   m_ObjectHideFlags: 0
@@ -24725,7 +25254,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.79376155
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &530367794
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24878,7 +25411,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.73300976
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &535862722
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -25109,7 +25646,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.84235847
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &540139791
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -25344,7 +25885,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.59003794
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &543876975
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -25575,7 +26120,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.83187175
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &555250810
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -25728,7 +26277,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.7901146
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &569577468
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -25963,7 +26516,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.84655523
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &575589530
 GameObject:
   m_ObjectHideFlags: 0
@@ -26034,7 +26591,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.7067631
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &576206944
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -26183,7 +26744,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.7913532
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &576370500
 GameObject:
   m_ObjectHideFlags: 0
@@ -26254,7 +26819,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.72999024
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &580049865
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -26485,7 +27054,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.69061214
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &583291217
 GameObject:
   m_ObjectHideFlags: 0
@@ -26556,7 +27129,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.7932094
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &585501596
 GameObject:
   m_ObjectHideFlags: 0
@@ -26627,7 +27204,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.6964711
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &586897399
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -27330,7 +27911,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.6658374
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &607476770
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -27893,7 +28478,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.5614924
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &636690899
 GameObject:
   m_ObjectHideFlags: 0
@@ -27964,7 +28553,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.7326155
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &639087314
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -28117,7 +28710,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.6699129
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &642150365
 GameObject:
   m_ObjectHideFlags: 0
@@ -28188,7 +28785,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.57404214
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &642629382
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -28419,7 +29020,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.615933
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &645077193
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -28650,7 +29255,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.80768085
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &648175734
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -28963,7 +29572,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.80925894
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &652686565
 GameObject:
   m_ObjectHideFlags: 0
@@ -29034,7 +29647,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.7247421
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &653714850
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -29667,7 +30284,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.60983145
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &664590404
 GameObject:
   m_ObjectHideFlags: 0
@@ -29738,7 +30359,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.6659573
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &665779925
 GameObject:
   m_ObjectHideFlags: 0
@@ -29809,7 +30434,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.69809365
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &668730774
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -30590,7 +31219,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.77875566
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &682850773
 GameObject:
   m_ObjectHideFlags: 0
@@ -30661,7 +31294,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.57292587
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &683055762
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -31198,7 +31835,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8157252
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &691239701
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -31347,7 +31988,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.59112334
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &695746022
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -31578,7 +32223,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.6530532
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &697931655
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -31727,7 +32376,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.7526328
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &699858994
 GameObject:
   m_ObjectHideFlags: 0
@@ -31798,7 +32451,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.5665865
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &701828939
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -31947,7 +32604,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.78008294
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &703391043
 GameObject:
   m_ObjectHideFlags: 0
@@ -32018,7 +32679,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.7641308
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &710872180
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -32167,7 +32832,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8022272
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &711861470
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -32316,7 +32985,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.7424032
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &714106509
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -32579,12 +33252,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 719461692}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.6825902, y: -2.5828226e-10, z: -2.7452526e-10, w: 0.73080146}
-  m_LocalPosition: {x: 6.26274e-11, y: -0.00084436144, z: -0.00038841378}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: 0.000000029802305, y: -1.2476423e-13, z: -1.1655226e-13, w: 1}
+  m_LocalPosition: {x: 0.0000000011892575, y: 0.000031110136, z: 0.0011342564}
+  m_LocalScale: {x: 0.004431648, y: 0.0044316407, z: 0.0044316472}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 487818322}
+  m_Father: {fileID: 986209614}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &722630251
 GameObject:
@@ -32656,7 +33329,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.69155216
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &725636826
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -32887,7 +33564,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.80501485
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &727796861
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -33520,7 +34201,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.55292064
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &741772216
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -33755,7 +34440,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.7661745
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &749337928
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -34068,7 +34757,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.7815253
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &756415053
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -34217,7 +34910,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.66544646
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &760381369
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -34608,7 +35305,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.67891663
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &768764927
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -35073,7 +35774,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.64607984
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &779450339
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -35378,7 +36083,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.72197086
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &788281526
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -35609,7 +36318,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.6909608
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &793232510
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -35762,7 +36475,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.6189138
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &795530638
 GameObject:
   m_ObjectHideFlags: 0
@@ -35833,7 +36550,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.5517247
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &795871920
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -35982,7 +36703,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.6850881
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &800513028
 GameObject:
   m_ObjectHideFlags: 0
@@ -36053,7 +36778,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.6694962
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &800784303
 GameObject:
   m_ObjectHideFlags: 0
@@ -36124,7 +36853,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.5848425
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &802216253
 GameObject:
   m_ObjectHideFlags: 0
@@ -36195,7 +36928,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.71981555
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &803163295
 GameObject:
   m_ObjectHideFlags: 0
@@ -36266,7 +37003,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.568256
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &803917297
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -36817,7 +37558,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.6396653
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &814315532
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -37052,7 +37797,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.6150365
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &820314264
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -37513,7 +38262,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.6424546
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &836030457
 GameObject:
   m_ObjectHideFlags: 0
@@ -37584,7 +38337,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.6284257
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &836260784
 GameObject:
   m_ObjectHideFlags: 0
@@ -37655,7 +38412,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.6443943
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &837213039
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -38202,7 +38963,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.819471
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &856511488
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -38745,7 +39510,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.80277836
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &864299416
 GameObject:
   m_ObjectHideFlags: 0
@@ -38816,7 +39585,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.84220195
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &865996199
 GameObject:
   m_ObjectHideFlags: 0
@@ -38887,7 +39660,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8030751
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &868493137
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -39118,7 +39895,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.7629033
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &869558262
 GameObject:
   m_ObjectHideFlags: 0
@@ -39189,7 +39970,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.6640168
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &871272583
 GameObject:
   m_ObjectHideFlags: 0
@@ -39703,7 +40488,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.6175567
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &884540847
 GameObject:
   m_ObjectHideFlags: 0
@@ -39774,7 +40563,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.57825524
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &888682263
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -40165,7 +40958,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.79621255
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &900115944
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -40396,7 +41193,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.7871524
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &906368786
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -40549,7 +41350,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.7962996
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &910100828
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -40750,7 +41555,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.6268188
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &914242743
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -40985,7 +41794,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.648563
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &916584720
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -41294,7 +42107,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.7217603
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &923048725
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -41447,7 +42264,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.5566896
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &925105776
 GameObject:
   m_ObjectHideFlags: 0
@@ -41518,7 +42339,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.6636692
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &930025857
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -41671,7 +42496,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.6039613
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &933424699
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -41824,7 +42653,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8102223
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &937307582
 GameObject:
   m_ObjectHideFlags: 0
@@ -41895,7 +42728,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.64444155
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &938977375
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -42048,7 +42885,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8066864
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &946176766
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -42357,7 +43198,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.74369663
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &949165894
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -42818,7 +43663,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.7185282
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &957405349
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -43373,7 +44222,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.6036935
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &963246859
 GameObject:
   m_ObjectHideFlags: 0
@@ -43444,7 +44297,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.7389846
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &964305287
 GameObject:
   m_ObjectHideFlags: 0
@@ -43515,7 +44372,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.807528
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &966698841
 GameObject:
   m_ObjectHideFlags: 0
@@ -43586,7 +44447,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.7352888
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &967523994
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -43735,7 +44600,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.5547216
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &973160973
 GameObject:
   m_ObjectHideFlags: 0
@@ -43806,7 +44675,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.82677764
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &975474099
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -43959,7 +44832,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.62200975
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &976725244
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -44615,19 +45492,49 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
-    - targetCorrespondingSourceObject: {fileID: -9172203349583734975, guid: b65f7c976eaecc34d9f34a62e89225e5, type: 3}
+    - targetCorrespondingSourceObject: {fileID: -757581067655239557, guid: b65f7c976eaecc34d9f34a62e89225e5, type: 3}
       insertIndex: -1
       addedObject: {fileID: 719461693}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: b65f7c976eaecc34d9f34a62e89225e5, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 986209613}
   m_SourcePrefab: {fileID: 100100000, guid: b65f7c976eaecc34d9f34a62e89225e5, type: 3}
 --- !u!4 &986209611 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: b65f7c976eaecc34d9f34a62e89225e5, type: 3}
   m_PrefabInstance: {fileID: 986209610}
   m_PrefabAsset: {fileID: 0}
---- !u!95 &986209612 stripped
+--- !u!1 &986209612 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: b65f7c976eaecc34d9f34a62e89225e5, type: 3}
+  m_PrefabInstance: {fileID: 986209610}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &986209613
 Animator:
-  m_CorrespondingSourceObject: {fileID: 5866666021909216657, guid: b65f7c976eaecc34d9f34a62e89225e5, type: 3}
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 986209612}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: e63f7611ee9d8ef4087778be4c66d077, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!4 &986209614 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -757581067655239557, guid: b65f7c976eaecc34d9f34a62e89225e5, type: 3}
   m_PrefabInstance: {fileID: 986209610}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &987077427
@@ -44782,7 +45689,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.75538284
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &993877266
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -45247,7 +46158,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.61342525
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &1003190151
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -45400,7 +46315,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.6987602
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &1006716111
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -45713,7 +46632,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.5808333
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &1019262208
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -46030,7 +46953,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.73170835
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &1035299953
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -46179,7 +47106,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8155336
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &1036325434
 GameObject:
   m_ObjectHideFlags: 0
@@ -46250,7 +47181,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.59749174
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &1036750085
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -46883,7 +47818,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.64214784
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &1048763044
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -47110,7 +48049,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.6385542
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &1051953661
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -47509,7 +48452,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8216255
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &1061385907
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -47744,7 +48691,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.6071275
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &1064204329
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -47975,7 +48926,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.56070876
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &1065523598
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -48128,7 +49083,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.73366135
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &1070667350
 GameObject:
   m_ObjectHideFlags: 0
@@ -48199,7 +49158,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.69033396
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &1074345234
 GameObject:
   m_ObjectHideFlags: 0
@@ -48270,7 +49233,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8166956
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &1077699295
 GameObject:
   m_ObjectHideFlags: 0
@@ -48341,7 +49308,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.6664418
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &1079455405
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -48654,7 +49625,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.7015221
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &1086333497
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -49049,7 +50024,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.62951916
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &1092660986
 GameObject:
   m_ObjectHideFlags: 0
@@ -49120,7 +50099,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.6953604
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &1094771599
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -49433,7 +50416,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.76128244
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &1103113553
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -49660,7 +50647,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.610475
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &1113189450
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -50059,7 +51050,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.708587
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &1117820096
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -50606,7 +51601,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.84513855
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &1123468437
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -50837,7 +51836,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.74847114
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &1124970901
 GameObject:
   m_ObjectHideFlags: 0
@@ -50908,7 +51911,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.62101144
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &1124994399
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -51734,7 +52741,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.67287177
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &1150248759
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -51883,7 +52894,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.569678
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &1151633806
 GameObject:
   m_ObjectHideFlags: 0
@@ -51954,7 +52969,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.56208533
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &1152608238
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -52833,7 +53852,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.72818273
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &1170615263
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -52986,7 +54009,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.71726954
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &1175633557
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -53299,7 +54326,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.6508988
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &1185526917
 GameObject:
   m_ObjectHideFlags: 0
@@ -53370,7 +54401,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.6389947
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &1186613559
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -54401,7 +55436,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.76000184
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &1197326058
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -54628,7 +55667,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.7109985
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &1207672602
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -55741,7 +56784,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.7107441
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &1231554120
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -56062,6 +57109,59 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 6fb50e2d33819b9409071679111a52e0, type: 3}
   m_PrefabInstance: {fileID: 1235561795}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1235678229
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1235678230}
+  - component: {fileID: 1235678231}
+  m_Layer: 0
+  m_Name: Limite Oeste
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1235678230
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1235678229}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -57, y: 8, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2028215510}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1235678231
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1235678229}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 2, y: 20, z: 138}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1241641582
 GameObject:
   m_ObjectHideFlags: 0
@@ -56132,7 +57232,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.6583948
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &1242194314
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -56445,7 +57549,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.5887788
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &1249012355
 GameObject:
   m_ObjectHideFlags: 0
@@ -56516,7 +57624,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.60109997
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &1250328169
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -56665,7 +57777,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.82645994
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &1252335108
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -56900,7 +58016,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.58821136
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &1256279912
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -57373,7 +58493,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.55707985
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &1270133341
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -57682,7 +58806,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8404566
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &1276089350
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -57999,7 +59127,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8236379
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &1282926643
 GameObject:
   m_ObjectHideFlags: 0
@@ -58070,7 +59202,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.63287544
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &1283001281
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -58223,7 +59359,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8028628
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &1284874771
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -58532,7 +59672,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.75645155
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &1299068075
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -58685,7 +59829,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.7737952
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &1302199449
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -58920,7 +60068,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.6749501
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &1313012385
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -59155,7 +60307,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.6140756
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &1317571243
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -59550,7 +60706,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.5920936
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &1328138420
 GameObject:
   m_ObjectHideFlags: 0
@@ -59621,7 +60781,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.80899817
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &1329028549
 GameObject:
   m_ObjectHideFlags: 0
@@ -59692,7 +60856,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.6850346
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &1329074048
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -59919,7 +61087,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.75119835
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &1342664037
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -60716,7 +61888,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.56467104
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &1350783513
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -61111,7 +62287,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.62559414
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &1354594716
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -61424,7 +62604,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.758759
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &1357238481
 GameObject:
   m_ObjectHideFlags: 0
@@ -61495,7 +62679,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.554863
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &1358799498
 GameObject:
   m_ObjectHideFlags: 0
@@ -61566,7 +62754,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.66456825
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &1362484138
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -62158,7 +63350,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.55180806
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &1368722224
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -62471,7 +63667,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.62245834
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &1370731049
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -62702,7 +63902,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.711011
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &1375022850
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -62851,7 +64055,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.57373667
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &1383752254
 GameObject:
   m_ObjectHideFlags: 0
@@ -62922,7 +64130,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.61569506
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &1384442207
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -63555,7 +64767,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.6387408
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &1402888950
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -63782,7 +64998,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.70458454
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &1405949070
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -63935,7 +65155,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.7766924
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &1407691004
 GameObject:
   m_ObjectHideFlags: 0
@@ -64006,7 +65230,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.7531976
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &1407899233
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -64389,7 +65617,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.61157435
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &1414605980
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -64468,6 +65700,59 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2247354909284867117, guid: ea2d2cb9a25f296499e92390c0218132, type: 3}
   m_PrefabInstance: {fileID: 1414605980}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1415336983
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1415336984}
+  - component: {fileID: 1415336985}
+  m_Layer: 0
+  m_Name: Limite Norte
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1415336984
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1415336983}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 8, z: 68}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2028215510}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1415336985
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1415336983}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 116, y: 20, z: 2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1416165781
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -64620,7 +65905,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.663049
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &1418051807
 GameObject:
   m_ObjectHideFlags: 0
@@ -64691,7 +65980,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.5923011
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &1418619847
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -64922,7 +66215,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.7892654
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &1422769526
 GameObject:
   m_ObjectHideFlags: 0
@@ -64993,7 +66290,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8228083
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &1426566260
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -66181,7 +67482,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.6634884
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &1458216739
 GameObject:
   m_ObjectHideFlags: 0
@@ -66521,7 +67826,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.7252403
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &1475068740
 GameObject:
   m_ObjectHideFlags: 0
@@ -66592,7 +67901,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.76521087
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &1475615039
 GameObject:
   m_ObjectHideFlags: 0
@@ -66663,7 +67976,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.84238786
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &1476915613
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -67132,7 +68449,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8443383
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &1488907284
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -67281,7 +68602,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.6629009
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &1490819517
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -67434,7 +68759,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.62978387
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &1491847412
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -67669,7 +68998,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8127254
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &1500557689
 GameObject:
   m_ObjectHideFlags: 0
@@ -67740,7 +69073,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.71938163
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &1502490160
 GameObject:
   m_ObjectHideFlags: 0
@@ -67811,7 +69148,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.77702194
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &1502554294
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -67960,7 +69301,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8405141
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &1503266171
 GameObject:
   m_ObjectHideFlags: 0
@@ -68031,7 +69376,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.81064016
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &1505079643
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -68180,7 +69529,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.6012304
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &1506681845
 GameObject:
   m_ObjectHideFlags: 0
@@ -68251,7 +69604,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8147431
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &1507313076
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -68400,7 +69757,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.79484206
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &1508657668
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -69669,7 +71030,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.67865515
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &1526417334
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -70016,7 +71381,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.7833352
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &1532974642
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -70165,7 +71534,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.7295151
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &1537480791
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -71024,7 +72397,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.7115903
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &1547208067
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -71177,7 +72554,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.64016503
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &1550818548
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -71330,7 +72711,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.74625033
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &1553186279
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -71561,7 +72946,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.6157599
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &1556341165
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -71714,7 +73103,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.61993694
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &1561033338
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -72101,7 +73494,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.77157694
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &1569584714
 GameObject:
   m_ObjectHideFlags: 0
@@ -72172,7 +73569,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.5781859
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &1569638092
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -72403,7 +73804,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8168666
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &1576219832
 GameObject:
   m_ObjectHideFlags: 0
@@ -72474,7 +73879,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.68009865
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &1576870461
 GameObject:
   m_ObjectHideFlags: 0
@@ -72545,7 +73954,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.6290996
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &1577590371
 GameObject:
   m_ObjectHideFlags: 0
@@ -72616,7 +74029,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.82813656
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &1577809559
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -73085,7 +74502,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.7530653
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &1581034012
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -73476,7 +74897,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.76582867
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &1588172480
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -73629,7 +75054,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.73069775
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &1590911239
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -73860,7 +75289,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.7069813
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &1598545120
 GameObject:
   m_ObjectHideFlags: 0
@@ -73931,7 +75364,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.71656793
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &1598546727
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -74490,7 +75927,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.61386245
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &1604182069
 GameObject:
   m_ObjectHideFlags: 0
@@ -74594,7 +76035,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.6865786
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &1607702837
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -74747,7 +76192,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.77234316
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &1610299168
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -75466,7 +76915,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.72712
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &1633530541
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -75615,7 +77068,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.56161326
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &1638052736
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -76092,7 +77549,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.683258
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &1648626002
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -76245,7 +77706,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8154086
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &1652280828
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -76476,7 +77941,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.5652274
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &1654825168
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -76629,7 +78098,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.71636724
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &1660168375
 GameObject:
   m_ObjectHideFlags: 0
@@ -76700,7 +78173,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.57037026
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &1663992564
 GameObject:
   m_ObjectHideFlags: 0
@@ -76771,7 +78248,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.74471205
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &1666632708
 GameObject:
   m_ObjectHideFlags: 0
@@ -77037,7 +78518,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.7381097
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &1669149471
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -77592,7 +79077,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.5905956
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &1680609875
 GameObject:
   m_ObjectHideFlags: 0
@@ -77663,7 +79152,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.7166787
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &1681246165
 GameObject:
   m_ObjectHideFlags: 0
@@ -77904,7 +79397,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.7612084
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &1683139120
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -78057,7 +79554,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.76989704
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &1688044045
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -78206,7 +79707,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.686289
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &1690454190
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -78355,7 +79860,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.7949215
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &1692377447
 GameObject:
   m_ObjectHideFlags: 0
@@ -78426,7 +79935,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.5552301
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &1694409709
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -78579,7 +80092,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.6676696
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &1697992525
 GameObject:
   m_ObjectHideFlags: 0
@@ -78650,7 +80167,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.81964743
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &1698167556
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -78803,7 +80324,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.73134124
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &1700750278
 GameObject:
   m_ObjectHideFlags: 0
@@ -78874,7 +80399,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.69495255
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &1701876093
 GameObject:
   m_ObjectHideFlags: 0
@@ -78945,7 +80474,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.7073582
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &1705226210
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -79098,7 +80631,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8157254
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &1707915280
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -79411,7 +80948,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8248584
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &1715565705
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -79564,7 +81105,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.71454364
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &1719978168
 GameObject:
   m_ObjectHideFlags: 0
@@ -79635,7 +81180,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.76925915
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &1721160574
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -79944,7 +81493,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.5931752
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &1729634299
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -80253,7 +81806,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.5531075
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &1734234230
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -80402,7 +81959,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.7508066
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &1737591737
 GameObject:
   m_ObjectHideFlags: 0
@@ -80473,7 +82034,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.6351896
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &1738746430
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -80782,7 +82347,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.6674386
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &1745596506
 GameObject:
   m_ObjectHideFlags: 0
@@ -80853,7 +82422,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.5990325
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &1745622971
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -81006,7 +82579,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.6032667
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &1750584281
 GameObject:
   m_ObjectHideFlags: 0
@@ -81077,7 +82654,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8075384
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &1750699218
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -81230,7 +82811,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.7838496
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &1752461461
 GameObject:
   m_ObjectHideFlags: 0
@@ -81301,7 +82886,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.70877206
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &1756839881
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -81610,7 +83199,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8224734
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &1762294225
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -81759,7 +83352,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.59216017
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &1764353806
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -83032,7 +84629,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.63130426
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &1781217726
 GameObject:
   m_ObjectHideFlags: 0
@@ -83103,7 +84704,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.673958
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &1781279441
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -83334,7 +84939,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.6116609
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &1788455532
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -83569,7 +85178,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.6148877
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &1791338674
 GameObject:
   m_ObjectHideFlags: 0
@@ -83923,7 +85536,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.78400457
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &1801041731
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -84232,7 +85849,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.61129797
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &1808125962
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -84541,7 +86162,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.58036834
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &1813357039
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -84694,7 +86319,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.7751369
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &1816975299
 GameObject:
   m_ObjectHideFlags: 0
@@ -84765,7 +86394,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8004879
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &1818534964
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -85000,7 +86633,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.7830332
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &1820833467
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -85153,7 +86790,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.6878271
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &1821974545
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -85302,7 +86943,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.55584973
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &1824285764
 GameObject:
   m_ObjectHideFlags: 0
@@ -85373,7 +87018,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.6300896
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &1826882309
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -85526,7 +87175,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.72198534
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &1830391839
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -85675,7 +87328,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.5553523
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &1836271030
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -85828,7 +87485,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.6997106
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &1840422812
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -85981,7 +87642,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.5865485
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &1846656921
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -86372,7 +88037,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.73488134
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &1852107378
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -86525,7 +88194,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.78658843
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &1856253526
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -86678,7 +88351,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.6500646
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &1858664787
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -86913,7 +88590,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.70529646
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &1862027411
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -87312,7 +88993,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.6022266
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &1868937877
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -87547,7 +89232,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8367413
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &1869375127
 GameObject:
   m_ObjectHideFlags: 0
@@ -87636,7 +89325,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 1
   m_Constraints: 80
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!65 &1869375131
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -87918,7 +89607,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8fe9f704fe4a05d4d9f72cbf020351e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TobyWalkAnimation
-  animator: {fileID: 986209612}
+  animator: {fileID: 986209613}
   movement: {fileID: 1869375128}
 --- !u!114 &1869375138
 MonoBehaviour:
@@ -87935,7 +89624,10 @@ MonoBehaviour:
   ball: {fileID: 82383337}
   mouth: {fileID: 719461693}
   movement: {fileID: 1869375128}
+  animator: {fileID: 986209613}
   pickupDistance: 1.2
+  pickupAttachDelay: 0.72
+  pickupAnimationDuration: 1.48
 --- !u!1001 &1872208624
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -88084,7 +89776,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.59340787
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &1875069770
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -88315,7 +90011,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.7818557
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &1881300615
 GameObject:
   m_ObjectHideFlags: 0
@@ -88386,7 +90086,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.73723984
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &1882182573
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -88785,7 +90489,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.7936108
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &1889146121
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -89012,7 +90720,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.7711483
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &1891025316
 GameObject:
   m_ObjectHideFlags: 0
@@ -89083,7 +90795,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.5744477
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &1891107379
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -89236,7 +90952,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.60867834
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &1892070190
 GameObject:
   m_ObjectHideFlags: 0
@@ -89307,7 +91027,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.6183022
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &1893251811
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -89624,7 +91348,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.6548951
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &1899780148
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -89773,7 +91501,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.80207115
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &1904780814
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -89922,7 +91654,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.7693763
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &1909242156
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -90543,7 +92279,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.7861398
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &1920269174
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -90774,7 +92514,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.74793583
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &1923031039
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -90927,7 +92671,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.7549204
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &1924104767
 GameObject:
   m_ObjectHideFlags: 0
@@ -90998,7 +92746,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.5879734
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &1929409868
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -91151,7 +92903,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.5866552
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &1930212412
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -91378,7 +93134,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.5541457
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &1934230107
 GameObject:
   m_ObjectHideFlags: 0
@@ -91449,7 +93209,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.66950786
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &1934336322
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -91680,7 +93444,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.7735814
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &1936571877
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -91989,7 +93757,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.77188295
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &1942418760
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -92714,7 +94486,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.71771836
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &1950878141
 GameObject:
   m_ObjectHideFlags: 0
@@ -92785,7 +94561,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8432955
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &1956694748
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -93311,7 +95091,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.66180634
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &1966358004
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -93538,7 +95322,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.79602987
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &1974132472
 GameObject:
   m_ObjectHideFlags: 0
@@ -93609,7 +95397,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.84233135
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &1974368387
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -93758,7 +95550,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.62433183
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &1976942779
 GameObject:
   m_ObjectHideFlags: 0
@@ -93829,7 +95625,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.6606461
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &1977597274
 GameObject:
   m_ObjectHideFlags: 0
@@ -93900,7 +95700,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8225898
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &1978827597
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -94049,7 +95853,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.80715436
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &1982120726
 GameObject:
   m_ObjectHideFlags: 0
@@ -94120,7 +95928,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.574845
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &1983455859
 GameObject:
   m_ObjectHideFlags: 0
@@ -94191,7 +96003,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8256726
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &1983562269
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -94902,7 +96718,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.6530533
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &1996493521
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -95051,7 +96871,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.7117746
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &2000947114
 GameObject:
   m_ObjectHideFlags: 0
@@ -95122,7 +96946,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8421292
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &2001696361
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -95271,7 +97099,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.80725425
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &2005133092
 GameObject:
   m_ObjectHideFlags: 0
@@ -95633,7 +97465,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.73164934
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &2011248468
 GameObject:
   m_ObjectHideFlags: 0
@@ -95704,7 +97540,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.706693
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &2012132527
 GameObject:
   m_ObjectHideFlags: 0
@@ -95775,7 +97615,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.82750046
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &2013888818
 GameObject:
   m_ObjectHideFlags: 0
@@ -95846,7 +97690,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.7358639
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &2014478462
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -96163,7 +98011,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.63395506
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &2019900193
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -96390,7 +98242,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.821925
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &2021556420
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -96813,6 +98669,41 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2247354909284867117, guid: ea2d2cb9a25f296499e92390c0218132, type: 3}
   m_PrefabInstance: {fileID: 2028000614}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2028215509
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2028215510}
+  m_Layer: 0
+  m_Name: Hitboxes Refeitas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2028215510
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2028215509}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1235678230}
+  - {fileID: 301744204}
+  - {fileID: 128616670}
+  - {fileID: 1415336984}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2030417013
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -96965,7 +98856,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8440685
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &2031117212
 GameObject:
   m_ObjectHideFlags: 0
@@ -97036,7 +98931,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.76115274
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &2032516682
 GameObject:
   m_ObjectHideFlags: 0
@@ -97281,7 +99180,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.584375
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &2036651809
 GameObject:
   m_ObjectHideFlags: 0
@@ -97352,7 +99255,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.6314075
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &2038017041
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -97579,7 +99486,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.72362864
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &2040354642
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -97728,7 +99639,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.6744149
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &2043178004
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -98033,7 +99948,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.68548036
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1 &2050375288
 GameObject:
   m_ObjectHideFlags: 0
@@ -98104,7 +100023,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.6084972
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &2052297648
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -98664,7 +100587,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.70892507
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &2064020471
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -98977,7 +100904,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8104482
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &2069176505
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -99126,7 +101057,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.6290001
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &2070072012
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -99667,7 +101602,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.566905
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &2079652922
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -100300,7 +102239,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8383521
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &2091629321
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -100453,7 +102396,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.6829948
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &2092875449
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -100680,7 +102627,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8347538
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &2100054948
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -100997,7 +102948,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.70674783
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &2105275002
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -101224,7 +103179,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.72462493
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &2114353860
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -101455,7 +103414,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.6715379
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &2117328987
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -102059,7 +104022,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.6190705
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &2133966752
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -102212,7 +104179,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.8082977
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &2138350526
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -102365,7 +104336,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.65205383
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &2139204331
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -102592,7 +104567,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArvoreVento
   velocidadeVento: 0.7602101
-  intensidadeVento: 0.65
+  intensidadeVento: 1.2
+  submeshTronco: 0
+  alturaFixa: 0.25
+  forcaToque: 0.7
+  amortecimento: 3
 --- !u!1001 &2143995186
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -102684,3 +104663,4 @@ SceneRoots:
   - {fileID: 82383341}
   - {fileID: 910687232}
   - {fileID: 1135322525}
+  - {fileID: 2028215510}

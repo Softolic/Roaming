@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 [DisallowMultipleComponent]
@@ -6,19 +7,27 @@ public sealed class TobyBallPickup : MonoBehaviour
     [SerializeField] private Rigidbody ball;
     [SerializeField] private Transform mouth;
     [SerializeField] private PlayerControle movement;
+    [SerializeField] private Animator animator;
     [SerializeField, Min(0.1f)] private float pickupDistance = 1.2f;
+    [SerializeField, Min(0f)] private float pickupAttachDelay = 0.72f;
+    [SerializeField, Min(0f)] private float pickupAnimationDuration = 1.48f;
     private Collider ballCollider;
+    private Coroutine pickupRoutine;
+    private bool pickupInProgress;
+    private bool movementWasEnabled;
+    private static readonly int PickUp = Animator.StringToHash("PickUp");
     public bool IsCarrying { get; private set; }
 
     private void Awake()
     {
         if (movement == null) movement = GetComponent<PlayerControle>();
+        if (animator == null) animator = GetComponentInChildren<Animator>(true);
         if (ball != null) ballCollider = ball.GetComponent<Collider>();
     }
 
-private void Update()
+    private void Update()
     {
-        if (!Input.GetKeyDown(KeyCode.E)) return;
+        if (pickupInProgress || !Input.GetKeyDown(KeyCode.E)) return;
         if (IsCarrying) TryPutDown();
         else TryPickUp();
     }
@@ -31,22 +40,31 @@ private void Update()
         if ((ball.position - transform.position).sqrMagnitude > pickupDistance * pickupDistance)
             return false;
 
-        ball.linearVelocity = Vector3.zero;
-        ball.angularVelocity = Vector3.zero;
-        ball.collisionDetectionMode = CollisionDetectionMode.Discrete;
-        ball.interpolation = RigidbodyInterpolation.None;
-        ball.isKinematic = true;
-        ball.useGravity = false;
-        ball.detectCollisions = false;
-        if (ballCollider != null) ballCollider.enabled = false;
-        IsCarrying = true;
-        FollowMouth();
+        if (animator == null)
+        {
+            AttachBall();
+            return true;
+        }
+
+        pickupInProgress = true;
+        movementWasEnabled = movement.enabled;
+        movement.enabled = false;
+        animator.ResetTrigger(PickUp);
+        animator.SetTrigger(PickUp);
+        pickupRoutine = StartCoroutine(FinishPickUp());
         return true;
     }
 
-public bool TryPutDown()
+    public bool TryPickUpImmediately()
     {
-        if (!isActiveAndEnabled || !IsCarrying || ball == null || mouth == null
+        if (!isActiveAndEnabled || IsCarrying || ball == null || mouth == null) return false;
+        AttachBall();
+        return true;
+    }
+
+    public bool TryPutDown()
+    {
+        if (!isActiveAndEnabled || pickupInProgress || !IsCarrying || ball == null || mouth == null
             || Time.timeScale <= 0f || movement == null || !movement.isActiveAndEnabled)
             return false;
 
@@ -86,6 +104,38 @@ public bool TryPutDown()
         return true;
     }
 
+    private IEnumerator FinishPickUp()
+    {
+        yield return new WaitForSeconds(pickupAttachDelay);
+        if (ball != null && mouth != null) AttachBall();
+
+        float remaining = Mathf.Max(0f, pickupAnimationDuration - pickupAttachDelay);
+        if (remaining > 0f) yield return new WaitForSeconds(remaining);
+        FinishPickupLock();
+    }
+
+    private void AttachBall()
+    {
+        ball.linearVelocity = Vector3.zero;
+        ball.angularVelocity = Vector3.zero;
+        ball.collisionDetectionMode = CollisionDetectionMode.Discrete;
+        ball.interpolation = RigidbodyInterpolation.None;
+        ball.isKinematic = true;
+        ball.useGravity = false;
+        ball.detectCollisions = false;
+        if (ballCollider != null) ballCollider.enabled = false;
+        IsCarrying = true;
+        FollowMouth();
+    }
+
+    private void FinishPickupLock()
+    {
+        pickupRoutine = null;
+        pickupInProgress = false;
+        if (movement != null && movementWasEnabled) movement.enabled = true;
+        movementWasEnabled = false;
+    }
+
 
     private void LateUpdate()
     {
@@ -98,7 +148,7 @@ public bool TryPutDown()
         ball.transform.SetPositionAndRotation(mouth.position, mouth.rotation);
     }
 
-private void ReleaseBall()
+    private void ReleaseBall()
     {
         IsCarrying = false;
         if (ballCollider != null) ballCollider.enabled = true;
@@ -111,6 +161,8 @@ private void ReleaseBall()
 
     private void OnDisable()
     {
+        if (pickupRoutine != null) StopCoroutine(pickupRoutine);
+        if (pickupInProgress) FinishPickupLock();
         if (IsCarrying && ball != null) ReleaseBall();
     }
 }
