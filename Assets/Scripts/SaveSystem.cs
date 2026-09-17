@@ -120,17 +120,22 @@ public static bool HasPendingLoadFor(string sceneName)
             return;
         }
 
+        Vector3 restoredPosition = pendingLoad.playerPosition;
+        var forestGrounding = player.GetComponent<ForestSpawnGrounding>();
+        if (forestGrounding != null)
+            forestGrounding.TryGetGroundedPosition(restoredPosition, out restoredPosition);
+
         Rigidbody body = player.GetComponent<Rigidbody>();
         if (body != null)
         {
-            body.position = pendingLoad.playerPosition;
+            body.position = restoredPosition;
             body.rotation = pendingLoad.playerRotation;
             body.linearVelocity = Vector3.zero;
             body.angularVelocity = Vector3.zero;
         }
         else
         {
-            player.transform.SetPositionAndRotation(pendingLoad.playerPosition, pendingLoad.playerRotation);
+            player.transform.SetPositionAndRotation(restoredPosition, pendingLoad.playerRotation);
         }
 
         pendingLoad = null;
