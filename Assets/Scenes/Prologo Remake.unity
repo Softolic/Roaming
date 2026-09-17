@@ -57926,6 +57926,7 @@ GameObject:
   m_Component:
   - component: {fileID: 537489583}
   - component: {fileID: 537489582}
+  - component: {fileID: 537489584}
   m_Layer: 0
   m_Name: "Chuva do Pr\xF3logo"
   m_TagString: Untagged
@@ -57963,6 +57964,103 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &537489584
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 537489581}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 8300000, guid: 58f3794d6ee38c54ba7cd9f303bac8ab, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 0.02
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 64
+  DopplerLevel: 0
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0.2
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &538623388 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 6fb50e2d33819b9409071679111a52e0, type: 3}
@@ -191879,7 +191977,7 @@ AudioListener:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1681246165}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!20 &1681246167
 Camera:
   m_ObjectHideFlags: 0
@@ -214767,6 +214865,7 @@ GameObject:
   - component: {fileID: 1869375136}
   - component: {fileID: 1869375137}
   - component: {fileID: 1869375138}
+  - component: {fileID: 1869375139}
   m_Layer: 0
   m_Name: player
   m_TagString: Player
@@ -215143,6 +215242,14 @@ MonoBehaviour:
   pickupDistance: 1.2
   pickupAttachDelay: 0.72
   pickupAnimationDuration: 1.48
+--- !u!81 &1869375139
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1869375127}
+  m_Enabled: 1
 --- !u!1 &1870667504
 GameObject:
   m_ObjectHideFlags: 0
@@ -221596,6 +221703,11 @@ MonoBehaviour:
   roadHalfLength: 105
   speedRange: {x: 23, y: 31}
   minimumCarDistance: 7
+  carSound: {fileID: 8300000, guid: fe8bfc7d480820041b57b4679ae592f3, type: 3}
+  carVolume: 0.18
+  carSoundMinDistance: 1.2
+  carSoundMaxDistance: 6.5
+  carSoundTriggerDistance: 7.5
 --- !u!4 &1934231647
 Transform:
   m_ObjectHideFlags: 0

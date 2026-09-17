@@ -13,20 +13,35 @@ public class TrafficCars : MonoBehaviour
     [SerializeField] private Vector2 speedRange = new Vector2(23f, 31f);
     [SerializeField] private float minimumCarDistance = 7f;
 
+    [Header("Audio")]
+    [SerializeField] private AudioClip carSound;
+    [SerializeField, Range(0f, 1f)] private float carVolume = .18f;
+    [SerializeField, Min(.1f)] private float carSoundMinDistance = 1.2f;
+    [SerializeField, Min(1f)] private float carSoundMaxDistance = 6.5f;
+    [SerializeField, Min(1f)] private float carSoundTriggerDistance = 7.5f;
+
     private readonly List<Car> cars = new List<Car>();
     private Material carMaterial;
     private Material lampMaterial;
+    private Transform soundTarget;
+    private AudioSource activeCarAudio;
 
     private struct Car
     {
         public Transform transform;
         public float speed;
         public int direction;
+        public AudioSource audioSource;
+        public bool wasInAudibleRange;
     }
 
 private void Awake()
     {
-        if (!Application.isPlaying) return;
+        if (!Application.isPlaying)
+            return;
+
+        var player = FindFirstObjectByType<PlayerControle>();
+        soundTarget = player != null ? player.transform : null;
 
         CreateMaterials();
         ClearCars(true);
@@ -92,7 +107,9 @@ private void RegisterLane(List<Transform> laneCars, int direction, float phaseOf
             {
                 transform = carTransform,
                 speed = Random.Range(speedRange.x, speedRange.y),
-                direction = direction
+                direction = direction,
+                audioSource = carTransform.GetComponent<AudioSource>(),
+                wasInAudibleRange = false
             });
 
             distanceAlongLoop += minimumGap + spareDistance * (weights[i] / totalWeight);
@@ -114,10 +131,14 @@ private void RegisterLane(List<Transform> laneCars, int direction, float phaseOf
 
 private void FixedUpdate()
     {
-        if (!Application.isPlaying) return;
+        if (!Application.isPlaying)
+            return;
 
         float boundary = roadHalfLength + 3f;
         float loopLength = boundary * 2f;
+
+        if (activeCarAudio != null && !activeCarAudio.isPlaying)
+            activeCarAudio = null;
 
         for (int i = 0; i < cars.Count; i++)
         {
@@ -128,11 +149,39 @@ private void FixedUpdate()
             position.y = roadY;
             position.z = roadCenterZ + car.direction * laneOffset;
             car.transform.position = position;
+
+            UpdateCarAudio(ref car);
+            cars[i] = car;
         }
 
         KeepCarsSeparated(1, boundary, loopLength);
         KeepCarsSeparated(-1, boundary, loopLength);
     }
+
+private void UpdateCarAudio(ref Car car)
+    {
+        if (car.audioSource == null || soundTarget == null)
+            return;
+
+        Vector3 offset = car.transform.position - soundTarget.position;
+        offset.y = 0f;
+        bool inAudibleRange = offset.sqrMagnitude
+            <= carSoundTriggerDistance * carSoundTriggerDistance;
+
+        if (!inAudibleRange)
+        {
+            car.wasInAudibleRange = false;
+            return;
+        }
+
+        if (car.wasInAudibleRange || activeCarAudio != null)
+            return;
+
+        car.audioSource.Play();
+        activeCarAudio = car.audioSource;
+        car.wasInAudibleRange = true;
+    }
+
 
 private void KeepCarsSeparated(int direction, float boundary, float loopLength)
     {
@@ -217,9 +266,30 @@ private void CreateCar(int direction, int index, Color color)
         body.isKinematic = true;
         carObject.AddComponent<CarPlayerCollision>();
 
+        CreateCarAudio(carObject);
         CreateHeadlight(carObject.transform, -0.52f);
         CreateHeadlight(carObject.transform, 0.52f);
     }
+
+private void CreateCarAudio(GameObject carObject)
+    {
+        if (carSound == null)
+            return;
+
+        var source = carObject.AddComponent<AudioSource>();
+        source.clip = carSound;
+        source.loop = false;
+        source.playOnAwake = false;
+        source.volume = carVolume;
+        source.pitch = Random.Range(.96f, 1.04f);
+        source.priority = 96;
+        source.spatialBlend = 1f;
+        source.dopplerLevel = .25f;
+        source.rolloffMode = AudioRolloffMode.Logarithmic;
+        source.minDistance = carSoundMinDistance;
+        source.maxDistance = Mathf.Max(carSoundMinDistance, carSoundMaxDistance);
+    }
+
 
     private void CreateHeadlight(Transform car, float lateralOffset)
     {
