@@ -291,38 +291,58 @@ public static class ForestElevationBuilder
         }
     }
 
-    static void FitVegetationAndBushCollisions(Transform forest)
+static void FitVegetationAndBushCollisions(Transform forest)
     {
+        // Bush visuals keep their trigger colliders so ArbustoVivo can react to Toby,
+        // but the invisible solid proxies are removed so the vegetation never blocks movement.
         GameObject collisions=Child(forest,"Colisao Solida dos Arbustos");
-        for(int i=collisions.transform.childCount-1;i>=0;i--)Object.DestroyImmediate(collisions.transform.GetChild(i).gameObject);
+        for(int i=collisions.transform.childCount-1;i>=0;i--)
+            Object.DestroyImmediate(collisions.transform.GetChild(i).gameObject);
+
         int count=0;
         foreach(Transform group in forest)
         {
             bool bush=group.name.StartsWith("Arbustos");
-            if(!bush&&!group.name.StartsWith("Pinheiros")&&!group.name.StartsWith("Tocos Cortados"))continue;
+            if(!bush&&!group.name.StartsWith("Pinheiros")&&!group.name.StartsWith("Tocos Cortados"))
+                continue;
+
             foreach(Transform plant in group)
             {
-                Renderer[] renderers=plant.GetComponentsInChildren<Renderer>();if(renderers.Length==0)continue;
-                Bounds bounds=renderers[0].bounds;foreach(Renderer renderer in renderers)bounds.Encapsulate(renderer.bounds);
-                Vector3 p=plant.position;float radius=Mathf.Min(2,Mathf.Max(bounds.extents.x,bounds.extents.z));
+                Renderer[] renderers=plant.GetComponentsInChildren<Renderer>();
+                if(renderers.Length==0)
+                    continue;
+
+                Bounds bounds=renderers[0].bounds;
+                foreach(Renderer renderer in renderers)
+                    bounds.Encapsulate(renderer.bounds);
+
+                Vector3 p=plant.position;
+                float radius=Mathf.Min(2,Mathf.Max(bounds.extents.x,bounds.extents.z));
                 float offset=p.x-RoadX(p.z),safe=3.9f+radius;
-                if(Mathf.Abs(offset)<safe){p.x=RoadX(p.z)+(offset>=0?1:-1)*safe;plant.position=p;}
-                // Keep the base seated in the slopes, including shrubs moved beside the path.
-                bounds=renderers[0].bounds;foreach(Renderer renderer in renderers)bounds.Encapsulate(renderer.bounds);
-                p=plant.position;p.y+=Height(p.x,p.z)-bounds.min.y-(group.name.StartsWith("Tocos")?.1f:.035f);plant.position=p;
-                if(!bush)continue;
-                bounds=renderers[0].bounds;foreach(Renderer renderer in renderers)bounds.Encapsulate(renderer.bounds);
-                GameObject solid=new GameObject(group.name+" - "+plant.name);solid.transform.SetParent(collisions.transform,false);
-                solid.transform.position=new Vector3(bounds.center.x,bounds.min.y,bounds.center.z);solid.layer=plant.gameObject.layer;
-                CapsuleCollider capsule=solid.AddComponent<CapsuleCollider>();capsule.direction=1;
-                capsule.radius=Mathf.Max(.12f,Mathf.Min(bounds.extents.x,bounds.extents.z)*.80f);
-                capsule.height=Mathf.Max(capsule.radius*2,bounds.size.y*.88f);capsule.center=new Vector3(0,capsule.height*.5f,0);capsule.isTrigger=false;
-                // Original trigger and ArbustoVivo remain on the visual for touch reactions.
-                foreach(Collider trigger in plant.GetComponentsInChildren<Collider>())if(trigger.isTrigger)trigger.enabled=true;
+                if(Mathf.Abs(offset)<safe)
+                {
+                    p.x=RoadX(p.z)+(offset>=0?1:-1)*safe;
+                    plant.position=p;
+                }
+
+                bounds=renderers[0].bounds;
+                foreach(Renderer renderer in renderers)
+                    bounds.Encapsulate(renderer.bounds);
+                p=plant.position;
+                p.y+=Height(p.x,p.z)-bounds.min.y-(group.name.StartsWith("Tocos")?.1f:.035f);
+                plant.position=p;
+
+                if(!bush)
+                    continue;
+
+                foreach(Collider trigger in plant.GetComponentsInChildren<Collider>())
+                    if(trigger.isTrigger)
+                        trigger.enabled=true;
                 count++;
             }
         }
-        Debug.Log("[Floresta] Arbustos com colisao solida: "+count);
+
+        Debug.Log("[Floresta] Arbustos sem bloqueio solido; reacao fisica preservada: "+count);
     }
 
     [MenuItem("Roaming/Construir desniveis rio e ponte")]

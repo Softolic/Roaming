@@ -10,6 +10,9 @@ public sealed class SaveData
     public Vector3 playerPosition;
     public Quaternion playerRotation;
     public string savedAtUtc;
+    public bool hasForestChaseState;
+    public float forestChaseProgress;
+    public bool forestChaseCompleted;
 }
 
 public static class SaveSystem
@@ -43,6 +46,14 @@ public static class SaveSystem
             playerRotation = player.transform.rotation,
             savedAtUtc = DateTime.UtcNow.ToString("O")
         };
+
+        var chase = UnityEngine.Object.FindFirstObjectByType<ForestBallChase>();
+        if (chase != null)
+        {
+            data.hasForestChaseState = true;
+            data.forestChaseProgress = chase.Progress;
+            data.forestChaseCompleted = chase.IsCompleted;
+        }
 
         try
         {
@@ -138,6 +149,12 @@ public static bool HasPendingLoadFor(string sceneName)
             player.transform.SetPositionAndRotation(restoredPosition, pendingLoad.playerRotation);
         }
 
+        if (pendingLoad.hasForestChaseState)
+        {
+            var chase = UnityEngine.Object.FindFirstObjectByType<ForestBallChase>();
+            if (chase != null)
+                chase.RestoreProgress(pendingLoad.forestChaseProgress, pendingLoad.forestChaseCompleted);
+        }
         pendingLoad = null;
     }
 }

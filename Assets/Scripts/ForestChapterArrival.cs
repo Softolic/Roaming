@@ -19,6 +19,11 @@ public sealed class ForestChapterArrival : MonoBehaviour
         }
         bool bringBall;
         bool arrived = ForestChapterTransition.ConsumeArrival(out bringBall);
+        if (ball != null && ball.GetComponent<ForestBallChase>() != null)
+        {
+            ball.gameObject.SetActive(true);
+            return;
+        }
         if (ball == null || pickup == null || !arrived) return;
         if (bringBall)
         {
